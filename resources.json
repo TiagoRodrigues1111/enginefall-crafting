@@ -1,0 +1,116 @@
+{
+      "Plastic": {
+        "name": "Plastic",
+        "image": "assets/images/",
+        "description" : "A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture.",
+        "sell" : 2
+      },
+        "Metal": {
+        "name": "Metal",
+        "image": "assets/images/",
+        "description" : "A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture.",
+        "sell" : 2
+      },
+        "Chemicals": {
+        "name": "Chemicals",
+        "image": "assets/images/",
+        "description" : "A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture. They can also be purchased from resource shops from second class onwards.",
+        "sell" : 10
+      },
+        "Ceramics": {
+        "name": "Ceramics",
+        "image": "assets/images/",
+        "description" : "An Uncommon material found only in second and first class carriges from shops, dispensers, nodes, pickups, and breaking furniture",
+        "sell" : 10
+      },
+        "Exotic_Metal": {
+        "name": "Exotic Metal",
+        "image": "assets/images/",
+        "description" : "A rare material only found in first class carriges as a potential from nodes and breaking furniture",
+        "sell" : 0
+      },
+        "Quartz": {
+        "name": "Quartz",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 0
+      },
+        "Industrial_Frame": {
+        "name": "Industrial Frame",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 2
+      },
+        "Parts": {
+        "name": "Parts",
+        "image": "assets/images/",
+        "description" : "Can be salvaged for resources in a Recycler, or analyzed in a Research Station to grant a random Tech.",
+        "sell" : 0
+      },
+        "Microprocessor": {
+        "name": "Microprocessor",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 0
+      },
+        "Mushroom": {
+        "name": "Mushroom",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 0
+      },
+        "Roach_Nest": {
+        "name": "Roach Nest",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 0
+      },
+        "Cola": {
+        "name": "Cola",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 0
+      },
+        "Rusty_Mary": {
+        "name": "Rusty Mary",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 0
+      },
+        "Stuffed_Mushrooms": {
+        "name": "Stuffed Mushrooms",
+        "image": "assets/images/",
+        "description" : "",
+        "sell" : 0
+      },
+        "Common_Isotope": {
+        "name": "Common Isotope",
+        "image": "assets/images/",
+        "description" : "Very rare drop from nodes and meganodes",
+        "sell" : 0
+      },
+        "Seed_Bird_of_Paradise": {
+        "name": "Seed - Bird of Paradise",
+        "image": "assets/images/",
+        "description" : "Can be purchased from food dispensers, or from vending machines in the C2 and C4 shopping mall.",
+        "sell" : 0
+      },        
+      "Soil": {
+        "name": "Soil",
+        "image": "assets/images/",
+        "description" : "Turn food and drink into soil in a Gardening Station.",
+        "sell" : 0
+      }, 
+      "Mysterious_Fruit": {
+        "name": "Mysterious Fruit",
+        "image": "assets/images/",
+        "description" : "Fruit that can be grown from the Mysterious Plant.",
+        "sell" : 0
+      },        "Skull": {
+        "name": "Skull",
+        "image": "assets/images/",
+        "description" : "Harvested directly from desceased passengers.",
+        "sell" : 0
+      }
+
+}

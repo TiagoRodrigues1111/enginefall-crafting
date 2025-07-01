@@ -132,7 +132,7 @@ ul {
 /*///////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////*/
 
- .main-content-crafting {
+ .main-content-template {
       display: flex;
       gap: 20px;
       padding: 20px;
@@ -140,6 +140,7 @@ ul {
     }
 
   
+    
   .left-panel, .right-panel {
       background-color: #f9f9f9;
       border: 1px solid #ccc;
@@ -199,3 +200,6 @@ ul {
     #item-info h2 {
       margin-top: 0;
     }
+
+
+    /*//////////////////////////////////////////////////////*/

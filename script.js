@@ -21,6 +21,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
+
+
+
+
   
   
 
@@ -40,12 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-    function updateItemDisplay(key) {
+    function updateItemDisplay(key) 
+    {
       const item = items[key];
       if (!item) return;
 
-img.src = item.image || '';
-  img.alt = item.name ? `${item.name} image` : 'Item image';
+    img.src = item.image || '';
+    img.alt = item.name ? `${item.name} image` : 'Item image';
 
     let html = item.name ? `<h2>${item.name}</h2>` : '';
 
@@ -73,9 +80,6 @@ img.src = item.image || '';
     html += `</ul>`;
     }
 
-
-
-
     if (item.price !== undefined && item.price !== null && item.price !== '') {
       html += `<p><strong>Price:</strong> ${item.price}</p>`;
     }   
@@ -98,6 +102,11 @@ img.src = item.image || '';
     html += `</ul>`;
     }
 
+    if (item.sell !== undefined && item.sell !== null && item.sell !== '') {
+      html += `<p><strong>Sell Price:</strong> ${item.sell}</p>`;
+    } 
+
+
     if (item.description !== undefined && item.description !== null && item.description !== '') {
       html += `<p><strong>Description:</strong> ${item.description}</p>`;
     } 
@@ -105,7 +114,19 @@ img.src = item.image || '';
       info.innerHTML = html;
     }
     
-fetch('items.json')
+
+function getDataFileFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('data') || 'items.json';  // default fallback
+}
+
+const jsonFile = getDataFileFromURL();
+
+
+
+
+
+fetch(jsonFile)
   .then(response => response.json())
   .then(data => {
     items = data;
@@ -119,7 +140,6 @@ fetch('items.json')
   .catch(error => {
     console.error('Error loading items:', error);
   });
-
 
     // Setup
     populateSelect();
