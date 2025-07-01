@@ -1,0 +1,133 @@
+
+
+
+/*INDEX.HTML STYLE*/
+
+body {
+  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #c7c7c7;
+  margin: 0;
+}
+
+.tab {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #898989;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #007BFF;
+}
+
+h1 {
+  color: #333;
+  margin-top: 40px;
+}
+
+p {
+  color: #666;
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a.button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Main flex container */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+
+
+
+/*NAVBAR STYLE*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+
+
+
+
+
+/*LIST OF CONTENTS STYLE*/
+
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+
+
+/*FOOTER STYLE*/
+
+/* Push footer to bottom */
+.site-footer {
+  margin-top: auto;
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9em;
+}
+
+.site-footer a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.site-footer a:hover {
+  color: #fff;
+}
+
+.footer-note {
+  color: #777;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////*/
