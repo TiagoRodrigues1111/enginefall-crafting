@@ -636,6 +636,879 @@
         "description": "Can be used to craft advanced weapons and munitions.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
+       "Bedroll_2": {
+        "name": "Bedroll",
+        "quantity_crafted": 1,
+        "crafting_station": "Player Crafting",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
+        "description": "An expanded polyurethane slab, covered in synthetic farbic. Used to set yout spawn point.",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Build_Tool": {
+        "name": "Build Tool",
+        "quantity_crafted": 1,
+        "crafting_station": "Player Crafting",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5}
+        ],
+        "description": "Use to create Buildings",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Container_2": {
+        "name": "Container",
+        "quantity_crafted": 1,
+        "crafting_station": "Player Crafting",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
+        "description": "A polycarbonate storage chest. Room for 30 items.",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Crafting_Machine": {
+        "name": "Crafting Machine",
+        "quantity_crafted": 1,
+        "crafting_station": "Player Crafting",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20}
+        ],
+        "description": "Can be used to craft a wide assortment of gear, tools, and base equipment.",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Dirty_Bandages_2": {
+        "name": "Dirty Bandages",
+        "quantity_crafted": 0,
+        "crafting_station": "Player Crafting",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Face_wrap": {
+        "name": "Face wrap",
+        "quantity_crafted": 1,
+        "crafting_station": "Player Crafting",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5},
+        { "material": "Plastic", "amount": 5}
+        ],
+        "description": "100% resistance, 600 durability",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Sledgehammer_T1": {
+        "name": "Sledgehammer (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Player Crafting",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10}
+        ],
+        "description": "22 - Effective tool for demolishing buildings.",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Fuel_Core": {
+        "name": "Fuel Core",
+        "quantity_crafted": 1,
+        "crafting_station": "Fuel Core Generator",
+        "crafting_materials": [
+        { "material": "Exotic Isotope", "amount": 5},
+        { "material": "", "amount": 0}
+        ],
+        "description": "Fuel Core, the most valuable item in EngineFall. Explodes in 10 minutes after it is removed from the Fuel Core Generator",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Fuel_Core_2": {
+        "name": "Fuel Core",
+        "quantity_crafted": 1,
+        "crafting_station": "Fuel Core Generator",
+        "description": "Fuel Core, the most valuable item in EngineFall. Explodes in 10 minutes after it is removed from the Fuel Core Generator",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Ammo_turret": {
+        "name": "Ammo (turret)",
+        "quantity_crafted": 5,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Chemicals", "amount": 5}
+        ],
+        "description": "5 rounds of Turret ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Attachment_Extended_Mag": {
+        "name": "Attachment: Extended Mag",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Attachment_Flashlight": {
+        "name": "Attachment: Flashlight",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": "Can be attached to most pistols and SMG's",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Attachment_Grip": {
+        "name": "Attachment: Grip",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": " -60% Weapon Spread -20% Equip Time -20% Unequip time",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Attachment_Long_Barrel": {
+        "name": "Attachment: Long Barrel",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": " + 20% Damage + 50% Headshot Multiplier - 20% Vertical Recoil -40% Horizontal Recoil",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Attachment_Stock": {
+        "name": "Attachment: Stock",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": " -10 % ADS Time -25% Reload Time + 0.05 Movement Speed",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Autoturret_T1": {
+        "name": "Autoturret (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "blueprint_price": 1130,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Autoturret_T2": {
+        "name": "Autoturret (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 100},
+        { "material": "Quartz", "amount": 2},
+        { "material": "Industrial Frame", "amount": 1}
+        ],
+        "blueprint_price": 2750,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Autoturret_T3": {
+        "name": "Autoturret (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 100},
+        { "material": "Exotic Metal", "amount": 10},
+        { "material": "Quartz", "amount": 3},
+        { "material": "Industrial Frame", "amount": 1}
+        ],
+        "blueprint_price": 3500,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Demolition_Charge_T1": {
+        "name": "Demolition Charge (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "blueprint_price": 1750,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Demolition_Charge_T2": {
+        "name": "Demolition Charge (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "blueprint_price": 3500,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Demolition_Charge_T3": {
+        "name": "Demolition Charge (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 100},
+        { "material": "Exotic Metal", "amount": 10},
+        { "material": "Quartz", "amount": 5},
+        { "material": "Microprocessor", "amount": 1}
+        ],
+        "blueprint_price": 5630,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Detonator": {
+        "name": "Detonator",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 25},
+        { "material": "Plastic", "amount": 25},
+        { "material": "Quartz", "amount": 5},
+        { "material": "Microprocessor", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Dirty_Bomb": {
+        "name": "Dirty Bomb",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "blueprint_price": 5000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Drill_T1": {
+        "name": "Drill (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 60},
+        { "material": "Plastic", "amount": 30},
+        { "material": "Industrial Frame", "amount": 1}
+        ],
+        "price": 900,
+        "blueprint_price": 450,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Drill_T2": {
+        "name": "Drill (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 80},
+        { "material": "Industrial Frame", "amount": 1}
+        ],
+        "price": 4000,
+        "blueprint_price": 2000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Drill_T3": {
+        "name": "Drill (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 80},
+        { "material": "Exotic Metal", "amount": 10},
+        { "material": "Industrial Frame", "amount": 1}
+        ],
+        "price": 5250,
+        "blueprint_price": 3250,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Frag_Grenade_T1": {
+        "name": "Frag Grenade (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 133,
+        "blueprint_price": 70,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Frag_Grenade_T2": {
+        "name": "Frag Grenade (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 417,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Frag_Grenade_T3": {
+        "name": "Frag Grenade (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 5},
+        { "material": "Ceramics", "amount": 30},
+        { "material": "Exotic Metal", "amount": 1}
+        ],
+        "price": 667,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Gas_Grenade_T1": {
+        "name": "Gas Grenade (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 150,
+        "blueprint_price": 80,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Gas_Grenade_T2": {
+        "name": "Gas Grenade (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 5},
+        { "material": "Ceramics", "amount": 30}
+        ],
+        "price": 583,
+        "blueprint_price": 300,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Gas_Grenade_T3": {
+        "name": "Gas Grenade (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 833,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Holo_Sight": {
+        "name": "Holo Sight",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": "For Rifles & SMGs (Holo Sight - 2x Zoom)",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Impact_Grenade_T1": {
+        "name": "Impact Grenade (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 133,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+              "Impact_Grenade_T2": {
+        "name": "Impact Grenade (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 417,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Impact_Grenade_T3": {
+        "name": "Impact Grenade (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 5},
+        { "material": "Ceramics", "amount": 30},
+        { "material": "Exotic Metal", "amount": 1}
+        ],
+        "price": 667,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Low_Caliber_Ammo": {
+        "name": "Low Caliber Ammo",
+        "quantity_crafted": 10,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 2},
+        { "material": "Chemicals", "amount": 1}
+        ],
+        "price": 7,
+        "description": "10 rounds of Low Caliber ammo, reloads Pistols & SMG's",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Mining_Charge": {
+        "name": "Mining Charge",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5},
+        { "material": "Chemicals", "amount": 5}
+        ],
+        "description": "An explosive charge used to break up resource nodes. Used sparingly they can speed up resource harvesting. Triggered when they take damage from firearms or sledgehammers. WARNING: If a mining charge reduces a node to 0 HP, that node is destroyed and does not yeild any resources.",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Nuke": {
+        "name": "Nuke",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "blueprint_price": 5000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Nuke_grenade": {
+        "name": "Nuke grenade",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "blueprint_price": 5000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Pistol_T1": {
+        "name": "Pistol (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 15},
+        { "material": "Chemicals", "amount": 5}
+        ],
+        "price": 600,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": "Uses low caliber ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Pistol_T2": {
+        "name": "Pistol (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 25},
+        { "material": "Ceramics", "amount": 10}
+        ],
+        "price": 750,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "description": "Uses low caliber ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Pistol_T3": {
+        "name": "Pistol (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 20},
+        { "material": "Ceramics", "amount": 30},
+        { "material": "Pistol Frame", "amount": 1}
+        ],
+        "price": 2500,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "description": "Uses low caliber ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Pistol_T4": {
+        "name": "Pistol (T4)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 50},
+        { "material": "Exotic Metal", "amount": 3},
+        { "material": "Microprocessor", "amount": 1},
+        { "material": "Pistol Frame", "amount": 1}
+        ],
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "Uses low caliber ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Primitive_Ammo": {
+        "name": "Primitive Ammo",
+        "quantity_crafted": 10,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5},
+        { "material": "", "amount": 0}
+        ],
+        "description": "10 rounds of Primitive ammo, reloads harpoons",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Primitive_Harpoon": {
+        "name": "Primitive Harpoon",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "", "amount": 0}
+        ],
+        "description": "Uses primitive Ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Rifle_T1": {
+        "name": "Rifle (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "Uses rifle ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Rifle_T2": {
+        "name": "Rifle (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 50},
+        { "material": "Chemicals", "amount": 25},
+        { "material": "Ceramics", "amount": 40}
+        ],
+        "price": 3750,
+        "blueprint_price": 1880,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "description": "Uses rifle ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Rifle_T3": {
+        "name": "Rifle (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 6500,
+        "blueprint_price": 3250,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "description": "Uses rifle ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Rifle_Ammo": {
+        "name": "Rifle Ammo",
+        "quantity_crafted": 10,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5},
+        { "material": "Chemicals", "amount": 2}
+        ],
+        "price": 15,
+        "description": "10 Rounds of Rifle ammo, reloads rifles",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Shotgun_T1": {
+        "name": "Shotgun (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 900,
+        "blueprint_price": 450,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": "Uses shotgun Ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Shotgun_T2": {
+        "name": "Shotgun (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 1350,
+        "blueprint_price": 680,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "description": "Uses shotgun Ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Shotgun_T3": {
+        "name": "Shotgun (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 4000,
+        "blueprint_price": 2000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "description": "Uses shotgun Ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Shotgun_Ammo": {
+        "name": "Shotgun Ammo",
+        "quantity_crafted": 10,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Chemicals", "amount": 3}
+        ],
+        "price": 25,
+        "description": "10 rounds of Shotgun ammo, reloads shotguns",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Sledgehammer_T2": {
+        "name": "Sledgehammer (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 25}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Sledgehammer_T3": {
+        "name": "Sledgehammer (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 40},
+        { "material": "Exotic Metal", "amount": 5}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "SMG_T1": {
+        "name": "SMG (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 900,
+        "blueprint_price": 450,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": "Uses low caliber ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "SMG_T2": {
+        "name": "SMG (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 1350,
+        "blueprint_price": 680,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "description": "Uses low caliber ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "SMG_T3": {
+        "name": "SMG (T3)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 4000,
+        "blueprint_price": 2000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "description": "Uses low caliber ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+              "X3 Zoom Scope": {
+        "name": "",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": "For Rifles only (3x Scope - 3x Zoom)",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
         "Template": {
         "name": "",
         "quantity_crafted": 1,
