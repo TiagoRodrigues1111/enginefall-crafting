@@ -449,6 +449,17 @@
         "crafting_materials_blueprint": "",
         "description": "",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Template2": {
+        "name": "",
+        "quantity_crafted": 1,
+        "crafting_station": "",
+        "crafting_materials": "",
+        "price": 0,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": "",
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       }
 
 }
