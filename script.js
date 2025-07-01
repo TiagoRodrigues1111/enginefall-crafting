@@ -44,17 +44,39 @@ document.addEventListener("DOMContentLoaded", () => {
       const item = items[key];
       if (!item) return;
 
-      img.src = item.image;
-      img.alt = item.name + " image";
+img.src = item.image || '';
+  img.alt = item.name ? `${item.name} image` : 'Item image';
 
-      info.innerHTML = `
-        <h2>${item.name}</h2>
-        <p><strong>Description:</strong> ${item.description}</p>
-        <p><strong>Required Materials:</strong> ${item.materials}</p>
-        <p><strong>Crafting Station:</strong> ${item.crafting_station}</p>
-        <p><strong>Attack Power:</strong> ${item.attack}</p>
-        <p><strong>Durability:</strong> ${item.durability}</p>
-      `;
+    let html = item.name ? `<h2>${item.name}</h2>` : '';
+
+    
+    if (item.crafting_station !== undefined && item.crafting_station !== null && item.crafting_station !== '') {
+      html += `<p><strong>Crafting Station:</strong> ${item.crafting_station}</p>`;
+    }
+    
+    if (item.quantity_crafted !== undefined && item.quantity_crafted !== null && item.quantity_crafted !== '') {
+      html += `<p><strong>Crafted Quantity:</strong> ${item.quantity_crafted}</p>`;
+    }
+    
+    if (item.crafting_materials !== undefined && item.crafting_materials !== null && item.crafting_materials !== '') {
+      html += `<p><strong>Required Materials:</strong> ${item.crafting_materials}</p>`;
+    }
+    if (item.price !== undefined && item.price !== null && item.price !== '') {
+      html += `<p><strong>Price:</strong> ${item.price}</p>`;
+    }   
+
+    if (item.blueprint_price !== undefined && item.blueprint_price !== null && item.blueprint_price !== '') {
+      html += `<p><strong>Blueprint Price:</strong> ${item.blueprint_price}</p>`;
+    } 
+    
+    if (item.crafting_materials_blueprint !== undefined && item.crafting_materials_blueprint !== null && item.crafting_materials_blueprint !== '') {
+      html += `<p><strong>Required Blueprint Materials:</strong> ${item.crafting_materials_blueprint}</p>`;
+    }  
+    if (item.description !== undefined && item.description !== null && item.description !== '') {
+      html += `<p><strong>Description:</strong> ${item.description}</p>`;
+    } 
+      
+      info.innerHTML = html;
     }
     
 fetch('items.json')
