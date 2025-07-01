@@ -3,7 +3,9 @@
         "name": "Armor (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "30 Metal",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 30 }
+        ],
         "price": 300,
         "image": "assets/images/"
       },
@@ -11,10 +13,16 @@
         "name": "Armor (T2)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "50 Ceramics",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 50 }
+        ],
         "price": 2500,
         "blueprint_price":1250,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+
         "description": "-",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -22,17 +30,24 @@
         "name": "Armor (T3)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "",
+        "crafting_materials": [
+        { "material": "-", "amount": 0 }
+        ],
         "price": 6250,
         "blueprint_price":3130,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
       "Armor_Plate": {
         "name": "Armor Plate",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "10 Metal",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10}
+        ],
         "price": 100,
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -40,7 +55,9 @@
         "name": "Backpack (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "15 Plastic",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 15}
+        ],
         "description": "Gives you 5 extra inventory slots.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -48,9 +65,14 @@
         "name": "Backpack (T2)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "40 Ceramics",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 40}
+        ],
         "blueprint_price":1000,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
         "description": "Gives you 15 extra inventory slots",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -58,9 +80,15 @@
         "name": "Backpack (T3)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "60 Ceramics 5 Exotic Metal",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 60},
+        { "material": "Exotic Metal", "amount": 5}
+        ],
         "blueprint_price":1820,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "description": "Gives you 25 extra inventory slots",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -68,7 +96,10 @@
         "name": "Gas Mask (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "20 Metal 5 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 5}
+        ],
         "price": 250,
         "description": "100% resistance, 1200 durability",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
@@ -77,10 +108,15 @@
         "name": "Gas Mask (T2)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "",
+        "crafting_materials": [
+        { "material": "", "amount": 0}
+        ],
         "price": 1750,
         "blueprint_price":880,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
         "description": "100% resistance, 2100 durability",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -88,10 +124,16 @@
         "name": "Gas Mask (T3)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "30 Ceramics 5 Exotic Metal",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 30},
+        { "material": "Exotic Metal", "amount": 5}
+        ],
         "price": 2125,
         "blueprint_price":1070,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "description": "100% resistance, 2700 durability",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -99,7 +141,9 @@
         "name": "Helmet (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "15 Metal",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 15}
+        ],
         "price": 150,
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -107,10 +151,15 @@
         "name": "Helmet (T2)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "20 Ceramics",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 20}
+        ],
         "price": 1000,
         "blueprint_price":500,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
         "description": "-",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -118,10 +167,15 @@
         "name": "Helmet (T3)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "",
+        "crafting_materials": [
+        { "material": "", "amount": 0}
+        ],
         "price": 1625,
         "blueprint_price":820,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+                "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "description": "-",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -129,7 +183,10 @@
         "name": "Radpack",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
-        "crafting_materials": "40 Metal 20 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 40},
+        { "material": "Plastic", "amount": 20}
+        ],
         "description": "Used to safely carry isotopes on your person",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -137,7 +194,10 @@
         "name": "Armor Bench",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "20 Metal 20 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 20}
+        ],
         "description": "Can be used to craft advanced armor and protective gear.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -145,7 +205,10 @@
         "name": "Base Core",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "5 Metal 15 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5},
+        { "material": "Plastic", "amount": 15}
+        ],
         "description": "A powerful computer which interfaces with the train and marks ownership territory.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -153,14 +216,19 @@
         "name": "Base Core Extender",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "5 Metal 1 Quartz",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5},
+        { "material": "Quartz", "amount": 1}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Battery": {
         "name": "Battery",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "3 Plastic",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 3}
+        ],
         "description": "Reload A calcium-polymer cell with high operational tolerance. Used to power a wide range of devices.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -168,7 +236,9 @@
         "name": "Bedroll",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "5 Plastic",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
         "description": "An expanded polyurethane slab, covered in synthetic farbic. Used to set yout spawn point.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -176,7 +246,11 @@
         "name": "Breacher",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "50 Metal 50 Plastic 1 Common Isotope",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 50},
+        { "material": "Plastic", "amount": 50},
+        { "material": "Common Isotope", "amount": 1}
+        ],
         "description": "Forces open the airlock into the next class, or into the engine. Attack into the airlock slot and give it time to work",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -184,16 +258,23 @@
         "name": "Clean Bandages",
         "quantity_crafted": 0,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "20 Ceramics",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 20}
+        ],
         "blueprint_price": 50,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Container": {
         "name": "Container",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "5 Plastic",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
         "description": "A polycarbonate storage chest. Room for 30 items.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -201,18 +282,30 @@
         "name": "Container (Lockable - T1)",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "",
+        "crafting_materials": [
+        { "material": "", "amount": 0}
+        ],
         "blueprint_price": 330,
-        "crafting_materials_blueprint": "30 Parts 3 Common_Isotope",
+           "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30 },
+        { "material": "Common Isotope", "amount": 3}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Container_Lockable_T2": {
         "name": "Container (Lockable - T2)",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "50 Ceramics 2 Quartz 1 Microprocessor",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 50},
+        { "material": "Quartz", "amount": 2},
+        { "material": "Microprocessor", "amount": 1}
+        ],
         "blueprint_price": 1500,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
         "description": "A polycarbonate storage chest. 4-digit PIN with room for 60 items.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -220,16 +313,24 @@
         "name": "Container (Lockable - T3)",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "",
+                "crafting_materials": [
+        { "material": "", "amount": 0}
+        ],
         "blueprint_price": 2250,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+                "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Cooking_station": {
         "name": "Cooking station",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "10 Metal 10 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 10}
+        ],
         "description": "Can be used to cook \"meals\".",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -237,39 +338,60 @@
         "name": "Dirty Bandages",
         "quantity_crafted": 0,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "10 Plastic",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Farming_Station": {
         "name": "Farming Station",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "25 Ceramics 1 Industrial_Frame",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 25},
+        { "material": "Industrial Frame", "amount": 1}
+        ],
         "blueprint_price": 630,
-        "crafting_materials_blueprint": "30 Parts 3 Common_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30 },
+        { "material": "Common Isotope", "amount": 3}
+        ],
+
+
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Fashion_Machine": {
         "name": "Fashion Machine",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "10 Plastic",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Flashlight": {
         "name": "Flashlight",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "2 Metal 3 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 2},
+        { "material": "Plastic", "amount": 3}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Gardening_Station": {
         "name": "Gardening Station",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "25 Ceramics 1 Industrial_Frame",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 25},
+        { "material": "Industrial Frame", "amount": 1}
+        ],
         "blueprint_price": 630,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+                "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
         "description": "",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -277,10 +399,15 @@
         "name": "Herbal Bandages",
         "quantity_crafted": 0,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "5 Exotic Metal",
+        "crafting_materials": [
+        { "material": "Exotic Metal", "amount": 5}
+        ],
         "price": 125,
         "blueprint_price": 70,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+                "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "description": "",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -288,9 +415,14 @@
         "name": "Incubator",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "25 Ceramics",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 25}
+        ],
         "blueprint_price": 0,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+                "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "description": "An incubator for producing eggs. Takes a while to build!",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -298,9 +430,16 @@
         "name": "Isotope Refiner",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "50 Ceramics 1 Industrial_Frame 1 Microprocessor",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 50},
+        { "material": "Industrial Frame", "amount": 1},
+        { "material": "Microprocessor", "amount": 1}
+        ],
         "blueprint_price": 1250,
-        "crafting_materials_blueprint": "90 Parts 1 Exotic_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90 },
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
         "description": "Extracts isotopes from resources",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -308,14 +447,20 @@
         "name": "Lamp (amber)",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "1 Metal 1 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 1},
+        { "material": "Plastic", "amount": 1}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Player Shop": {
         "name": "Player Shop",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "50 Metal 50 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 50},
+        { "material": "Plastic", "amount": 50}
+        ],
         "description": "Building - A place to sell yout items to other passengers",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -323,7 +468,10 @@
         "name": "Poisoned Bandages (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "1 Toxin 1 Dirty_Bandages",
+        "crafting_materials": [
+        { "material": "Toxin", "amount": 1},
+        { "material": "Dirty Bandages", "amount": 1}
+        ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -331,7 +479,10 @@
         "name": "Poisoned Bandages (T2)",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "1 Toxin 1 Clean_Bandages",
+        "crafting_materials": [
+        { "material": "Toxin", "amount": 1},
+        { "material": "Dirty Bandages", "amount": 1}
+        ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -339,7 +490,10 @@
         "name": "Poisoned Bandages (T3)",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "1 Toxin 1 Herbal_Bandages",
+        "crafting_materials": [
+        { "material": "Toxin", "amount": 1},
+        { "material": "Herbal Bandages", "amount": 1}
+        ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -347,9 +501,14 @@
         "name": "Prop Crafter",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "30 Plastic",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 30}
+        ],
         "blueprint_price": 150,
-        "crafting_materials_blueprint": "30 Parts 1 Common_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30 },
+        { "material": "Common Isotope", "amount": 1}
+        ],
         "description": "Used to craft a wide range of props to decorate the train.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -357,7 +516,10 @@
         "name": "Radbox",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "50 Metal 25 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 50},
+        { "material": "Plastic", "amount": 25}
+        ],
         "description": "Used to safely store isotopes",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -365,10 +527,17 @@
         "name": "Recycler",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "30 Metal 1 Industrial_Frame 1 Microprocessor",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 30},
+        { "material": "Industrial Frame", "amount": 1},
+        { "material": "Microprocessor", "amount": 1}
+        ],
         "price": 0,
         "blueprint_price": 150,
-        "crafting_materials_blueprint": "60 Parts 1 Rare_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60 },
+        { "material": "Rare Isotope", "amount": 1}
+        ],
         "description": "Allows you to recycle items. Watch out! Takes up a lot of space.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -376,7 +545,10 @@
         "name": "Repair Kit",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "3 Metal 3 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 3},
+        { "material": "Plastic", "amount": 3}
+        ],
         "price": 200,
         "description": "Has everything you need to fix almost everything",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
@@ -385,21 +557,30 @@
         "name": "Reseach Station",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "10 Metal 25 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 25}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Resource_Relay": {
         "name": "Resource Relay",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "20 Metal 10 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 10}
+        ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Sign": {
         "name": "Sign",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "1 Metal 1 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 1},
+        { "material": "Plastic", "amount": 1}
+        ],
         "description": "A sign used by players which can be written on.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -407,7 +588,9 @@
         "name": "Spray Can",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "5 Metal",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5}
+        ],
         "description": "Express yourself with some graffiti!",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -415,9 +598,15 @@
         "name": "Train Information Sign",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "10 Plastic 1 Microprocessor",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10},
+        { "material": "Microprocessor", "amount": 1}
+        ],
         "blueprint_price": 50,
-        "crafting_materials_blueprint": "30 Parts 3 Common_Isotope",
+           "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30 },
+        { "material": "Common Isotope", "amount": 3}
+        ],
         "description": "A sign which displays useful information about events aboard the train.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -425,9 +614,14 @@
         "name": "Trespasser Detector",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "20 Ceramics",
+        "crafting_materials": [
+        { "material": "Ceramics", "amount": 20}
+        ],
         "blueprint_price": 500,
-        "crafting_materials_blueprint": "30 Parts 3 Common_Isotope",
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30 },
+        { "material": "Common Isotope", "amount": 3}
+        ],
         "description": "Use to detect presence of Trespassers",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -435,7 +629,10 @@
         "name": "Weapon Bench",
         "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
-        "crafting_materials": "20 Metal 20 Plastic",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 20}
+        ],
         "description": "Can be used to craft advanced weapons and munitions.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -443,21 +640,16 @@
         "name": "",
         "quantity_crafted": 1,
         "crafting_station": "",
-        "crafting_materials": "",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
         "price": 0,
         "blueprint_price": 0,
-        "crafting_materials_blueprint": "",
-        "description": "",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
-      },
-        "Template2": {
-        "name": "",
-        "quantity_crafted": 1,
-        "crafting_station": "",
-        "crafting_materials": "",
-        "price": 0,
-        "blueprint_price": 0,
-        "crafting_materials_blueprint": "",
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
         "description": "",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       }

@@ -58,9 +58,24 @@ img.src = item.image || '';
       html += `<p><strong>Crafted Quantity:</strong> ${item.quantity_crafted}</p>`;
     }
     
-    if (item.crafting_materials !== undefined && item.crafting_materials !== null && item.crafting_materials !== '') {
-      html += `<p><strong>Required Materials:</strong> ${item.crafting_materials}</p>`;
+
+    if (item.crafting_materials && item.crafting_materials.length > 0) {
+      html += `<p><strong>Required Materials:</strong></p><ul>`;
+     
+      item.crafting_materials.forEach(mat => {
+      if (typeof mat === 'string') {
+        html += `<li>${mat}</li>`;
+      } else if (typeof mat === 'object' && mat.material && mat.amount !== undefined) {
+        html += `<li>${mat.amount} ${mat.material}</li>`;
+      }
+      });
+
+    html += `</ul>`;
     }
+
+
+
+
     if (item.price !== undefined && item.price !== null && item.price !== '') {
       html += `<p><strong>Price:</strong> ${item.price}</p>`;
     }   
@@ -69,9 +84,20 @@ img.src = item.image || '';
       html += `<p><strong>Blueprint Price:</strong> ${item.blueprint_price}</p>`;
     } 
     
-    if (item.crafting_materials_blueprint !== undefined && item.crafting_materials_blueprint !== null && item.crafting_materials_blueprint !== '') {
-      html += `<p><strong>Required Blueprint Materials:</strong> ${item.crafting_materials_blueprint}</p>`;
-    }  
+    if (item.crafting_materials_blueprint && item.crafting_materials_blueprint.length > 0) {
+      html += `<p><strong>Required Blueprint Materials:</strong></p><ul>`;
+     
+      item.crafting_materials_blueprint.forEach(mat => {
+      if (typeof mat === 'string') {
+        html += `<li>${mat}</li>`;
+      } else if (typeof mat === 'object' && mat.material && mat.amount !== undefined) {
+        html += `<li>${mat.amount} ${mat.material}</li>`;
+      }
+      });
+
+    html += `</ul>`;
+    }
+
     if (item.description !== undefined && item.description !== null && item.description !== '') {
       html += `<p><strong>Description:</strong> ${item.description}</p>`;
     } 
