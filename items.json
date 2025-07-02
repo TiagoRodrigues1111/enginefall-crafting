@@ -1516,6 +1516,311 @@
         "description": "For Rifles only (3x Scope - 3x Zoom)",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
+        "Roach_Tacos": {
+        "name": "Roach Tacos",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Roach nest", "amount": 2},
+        { "material": "Mysterious Fruit", "amount": 1},
+        { "material": "Player Ear (fried)", "amount": 1}
+        ],
+        "description": " ++++++ Nutrition ++++++++ Hydration ++ Heal",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Rusty_Mary": {
+        "name": "Rusty Mary",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Rust Dew", "amount": 1},
+        { "material": "Cola", "amount": 1}
+        ],
+        "description": " + Hydration",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Bubble_Tea": {
+        "name": "Bubble Tea",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Roach nest", "amount": 2},
+        { "material": "Cola", "amount": 2}
+        ],
+        "description": " ++ Hydration +++ Heal",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Omelette": {
+        "name": "Omelette",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Roach nest", "amount": 1},
+        { "material": "Egg", "amount": 1},
+        { "material": "Mushroom", "amount": 1}
+        ],
+        "description": " ++ Nutrition ++ Heal",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Sandwich": {
+        "name": "Sandwich",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Player Ear (fried)", "amount": 1},
+        { "material": "Mushroom", "amount": 2}
+        ],
+        "description": " +++ Nutrition ++ Heal",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Soup": {
+        "name": "Soup",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Mysterious Fruit", "amount": 2},
+        { "material": "Cola", "amount": 2},
+        { "material": "Rusty Mary", "amount": 1}
+        ],
+        "description": " +++ Nutrition ++++ Hydration +++ Heal",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Rust_Dew": {
+        "name": "Rust Dew",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Mushroom", "amount": 1},
+        { "material": "Metal", "amount": 1}
+        ],
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Player_Ear_fried": {
+        "name": "Player Ear (fried)",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Infiltrator Ear", "amount": 1}
+        ],
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Player_Ear_fried_2": {
+        "name": "Player Ear (fried)",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Bandit Ear", "amount": 1}
+        ],
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Player_Ear_fried_3": {
+        "name": "Player Ear (fried)",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Player Ear", "amount": 1}
+        ],
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Stuffed_Mushrooms": {
+        "name": "Stuffed Mushrooms",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Roach nest", "amount": 1},
+        { "material": "Mushroom", "amount": 1}
+        ],
+        "description": " + Nutrition",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Ear_Pie": {
+        "name": "Ear Pie",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Player Ear (fried)", "amount": 3},
+        { "material": "Egg", "amount": 1},
+        { "material": "Stuffed Mushrooms", "amount": 1}
+        ],
+        "description": " +++ Nutrition +++ Hydration +++ Heal",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Cola": {
+        "name": "Cola",
+        "quantity_crafted": 1,
+        "crafting_station": "Cooking Station",
+        "crafting_materials": [
+        { "material": "Roach nest", "amount": 1},
+        { "material": "Plastic", "amount": 1}
+        ],
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Fertilizer": {
+        "name": "Fertilizer",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 3}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Soil": {
+        "name": "Soil",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Mushroom", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Mysterious_Plant_Stage_4": {
+        "name": "Mysterious Plant - Stage 4",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Soil", "amount": 3},
+        { "material": "Fertilizer", "amount": 5},
+        { "material": "Seed - Mysterious Plant", "amount": 2}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Soil_1": {
+        "name": "Soil",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Skull", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Seed_Mysterious_Plant": {
+        "name": "Seed - Mysterious Plant",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Small Flower - Mysterious Bloom", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Seed_Mysterious_Plant_2": {
+        "name": "Seed - Mysterious Plant",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Medium Flower - Mysterious Bloom", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Seed_Mysterious_Plant_3": {
+        "name": "Seed - Mysterious Plant",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Large Flower - Mysterious Bloom", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Seed_Bird_of_Paradise": {
+        "name": "Seed - Bird of Paradise",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Small Flower - Bird of Paradise", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Seed - Bird of Paradise_2": {
+        "name": "Seed - Bird of Paradise",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Medium Flower - Bird of Paradise", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Seed_Bird_of_Paradise_3": {
+        "name": "Seed - Bird of Paradise",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Large Flower - Bird of Paradise", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Enriched_Soil": {
+        "name": "Enriched Soil",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Soil", "amount": 1},
+        { "material": "Mysterious Fruit", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Enriched_Soil_2": {
+        "name": "Enriched Soil",
+        "quantity_crafted": 0,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 30},
+        { "material": "Skull", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Giant_Pumpkin": {
+        "name": "Giant Pumpkin",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Soil", "amount": 5},
+        { "material": "Toxin", "amount": 1},
+        { "material": "Seed - Giant Pumpkin", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Soil_2": {
+        "name": "Soil",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Dew", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Soil_3": {
+        "name": "Soil",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Cola", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Soil_4": {
+        "name": "Soil",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "Rust Dew", "amount": 1}
+        ],
+        "description": "",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Soil_5": {
+        "name": "Soil",
+        "quantity_crafted": 1,
+        "crafting_station": "Gardening Station",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
         "Template": {
         "name": "",
         "quantity_crafted": 1,
