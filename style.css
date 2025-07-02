@@ -12,19 +12,7 @@ body {
   margin: 0;
 }
 
-.tab {
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  margin: 0 5px;
-  border-radius: 5px;
-  background-color: #898989;
-  transition: background-color 0.3s;
-}
 
-.tab:hover {
-  background-color: #007BFF;
-}
 
 h1 {
   color: #333;
@@ -73,11 +61,38 @@ a.button:hover {
 
 /*NAVBAR STYLE*/
 .navbar {
+  margin-top: auto;
   display: flex;
+  flex-wrap: wrap;              /* allow wrapping */
   justify-content: center;
   background-color: #333;
-  padding: 10px 0;
+  padding: 10px 5px;
+  gap: 8px;                     /* space between tabs */
+  overflow-x: auto;             /* allow horizontal scroll if needed */
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
 }
+
+
+
+.navbar a.tab {
+  padding: 8px 16px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  white-space: nowrap;         /* keep tab label on one line */
+  flex: 1 1 auto;               /* allow tabs to grow/shrink */
+  text-align: center;
+  min-width: 100px;            /* prevent tiny buttons on small screens */
+  transition: background-color 0.3s;
+}
+
+
+.navbar a.tab:hover {
+    background-color: #007BFF;
+}
+
+
 
 /*///////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////*/
