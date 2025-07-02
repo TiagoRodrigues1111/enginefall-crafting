@@ -1492,8 +1492,8 @@
         "description": "Uses low caliber ammo",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
-              "X3 Zoom Scope": {
-        "name": "",
+        "X3 Zoom Scope": {
+        "name": "X3 Zoom Scope",
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
