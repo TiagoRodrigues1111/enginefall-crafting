@@ -10,6 +10,7 @@ body {
   padding: 5px;
   background-color: #c7c7c7;
   margin: 0;
+  
 }
 
 
@@ -21,6 +22,7 @@ h1 {
 
 p {
   color: #666;
+  
 }
 
 /* Main flex container */

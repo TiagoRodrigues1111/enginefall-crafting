@@ -7,7 +7,7 @@
         { "material": "Metal", "amount": 30 }
         ],
         "price": 300,
-        "image": "assets/images/"
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
       "Armor_T2": {
         "name": "Armor (T2)",
@@ -31,7 +31,8 @@
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
         "crafting_materials": [
-        { "material": "-", "amount": 0 }
+        { "material": "Ceramics", "amount": 100 },
+        { "material": "Exotic Metal", "amount": 10}
         ],
         "price": 6250,
         "blueprint_price":3130,
@@ -74,7 +75,7 @@
         { "material": "Rare Isotope", "amount": 1}
         ],
         "description": "Gives you 15 extra inventory slots",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/Backpack_T2.png"
       },
       "Backpack_T3": {
         "name": "Backpack (T3)",
@@ -90,7 +91,7 @@
         { "material": "Exotic Isotope", "amount": 1}
         ],
         "description": "Gives you 25 extra inventory slots",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/Backpack_T3.png"
       },
       "Gas_Mask_T1": {
         "name": "Gas Mask (T1)",
@@ -135,7 +136,7 @@
         { "material": "Exotic Isotope", "amount": 1}
         ],
         "description": "100% resistance, 2700 durability",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/Gas_Mask_T3.png"
       },
       "Helmet_T1": {
         "name": "Helmet (T1)",
@@ -1224,6 +1225,7 @@
         { "material": "Common Isotope", "amount": 3}
         ],
         "description": "Uses low caliber ammo",
+        "description2": "You get the blueprint whenever you register into class 3.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Pistol_T2": {
@@ -1241,6 +1243,7 @@
         { "material": "Rare Isotope", "amount": 1}
         ],
         "description": "Uses low caliber ammo",
+        "description2": "You get the blueprint whenever you register into class 2.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Pistol_T3": {
@@ -1259,6 +1262,7 @@
         { "material": "Exotic Isotope", "amount": 1}
         ],
         "description": "Uses low caliber ammo",
+        "description2": "You get the blueprint whenever you register into class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Pistol_T4": {
@@ -1277,6 +1281,7 @@
         { "material": "", "amount": 0}
         ],
         "description": "Uses low caliber ammo",
+        "description2": "You get the blueprint whenever you register as a conductor.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Primitive_Ammo": {
@@ -1429,6 +1434,7 @@
         "crafting_materials": [
         { "material": "Ceramics", "amount": 25}
         ],
+        "description2": "You get the blueprint whenever you register into class 2.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Sledgehammer_T3": {
@@ -1439,6 +1445,7 @@
         { "material": "Ceramics", "amount": 40},
         { "material": "Exotic Metal", "amount": 5}
         ],
+        "description2": "You get the blueprint whenever you register into class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "SMG_T1": {

@@ -110,7 +110,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (item.description !== undefined && item.description !== null && item.description !== '') {
       html += `<p><strong>Description:</strong> ${item.description}</p>`;
     } 
-      
+   
+    if (item.description2 !== undefined && item.description2 !== null && item.description2 !== '') {
+      html += `<p><strong>My Notes:</strong> ${item.description2}</p>`;
+    } 
+
       info.innerHTML = html;
     }
     
