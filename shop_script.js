@@ -1,0 +1,244 @@
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Load navbar
+  fetch("navbar.html")
+    .then(res => res.text())
+    .then(data => {
+      const nav = document.getElementById("navbar-container");
+      if (nav) nav.innerHTML = data;
+    });
+
+  // Load footer
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      const footer = document.getElementById("footer-container");
+      if (footer) footer.innerHTML = data;
+    });
+});
+
+const stationSelect = document.getElementById('station-select');
+
+
+
+const itemSelect = document.getElementById('item-select');
+const select = document.getElementById('item-select');
+const img = document.querySelector('#item-image img');
+const info = document.getElementById('item-info');
+
+let filteredItems = {}; // filtered based on station
+let items = {};
+let enableStationFilter = false;
+
+// Check if we should enable station filtering
+function detectStationSupport() {
+  return Object.values(items).some(item => 'shop_name' in item);
+}
+
+function populateStations() 
+{
+  const stationSet = new Set();
+
+  Object.values(items).forEach(item => {
+    if (item.shop_name) {
+      stationSet.add(item.shop_name);
+    }
+  });
+
+  // Add options to station select
+  stationSet.forEach(station => {
+    const option = document.createElement('option');
+    option.value = station;
+    option.textContent = station;
+    stationSelect.appendChild(option);
+  });
+}
+
+
+// Populate item dropdown based on current filter
+function populateItems() {
+  itemSelect.innerHTML = '';
+
+  Object.entries(filteredItems).forEach(([key, item]) => {
+    const option = document.createElement('option');
+    option.value = key;
+    option.textContent = item.name || key;
+    itemSelect.appendChild(option);
+  });
+  // If any items remain, show the first one
+  if (itemSelect.value) {
+    updateItemDisplay(itemSelect.value);
+  } else {
+    info.innerHTML = '<p>No items found for this station.</p>';
+    img.src = '';
+    img.alt = '';
+  }
+}
+
+
+// Filter items based on station selection
+function filterItemsByStation(station) {
+  if (station === 'all') {
+    filteredItems = items;
+  } else {
+    filteredItems = Object.fromEntries(
+      Object.entries(items).filter(([_, item]) => item.shop_name === station)
+    );
+  }
+  populateItems();
+}
+
+
+stationSelect.addEventListener('change', e => {
+  filterItemsByStation(e.target.value);
+});
+
+// Existing item select handler
+itemSelect.addEventListener('change', e => {
+  updateItemDisplay(e.target.value);
+});
+
+
+
+
+
+
+
+
+
+
+
+function updateItemDisplay(key) 
+{
+const item = items[key];
+  if (!item) return;
+img.src = item.image || '';
+img.alt = item.name ? `${item.name} image` : 'Item image';
+let html = item.name ? `<h2>${item.name}</h2>` : '';
+
+if (item.shop_name !== undefined && item.shop_name !== null && item.shop_name !== '') {
+  html += `<p><strong>Shop:</strong> ${item.shop_name}</p>`;
+}
+
+if (item.quantity_crafted !== undefined && item.quantity_crafted !== null && item.quantity_crafted !== '') {
+  html += `<p><strong>Crafted Quantity:</strong> ${item.quantity_crafted}</p>`;
+}
+
+if (item.crafting_materials && item.crafting_materials.length > 0) {
+  html += `<p><strong>Required Materials:</strong></p><ul>`;
+ 
+  item.crafting_materials.forEach(mat => {
+  if (typeof mat === 'string') {
+    html += `<li>${mat}</li>`;
+  } else if (typeof mat === 'object' && mat.material && mat.amount !== undefined) {
+    html += `<li>${mat.amount} ${mat.material}</li>`;
+  }
+  });
+html += `</ul>`;
+}
+if (item.price !== undefined && item.price !== null && item.price !== '') {
+  html += `<p><strong>Price:</strong> ${item.price}</p>`;
+}   
+if (item.blueprint_price !== undefined && item.blueprint_price !== null && item.blueprint_price !== '') {
+  html += `<p><strong>Blueprint Price:</strong> ${item.blueprint_price}</p>`;
+} 
+
+if (item.crafting_materials_blueprint && item.crafting_materials_blueprint.length > 0) {
+  html += `<p><strong>Required Blueprint Materials:</strong></p><ul>`;
+ 
+  item.crafting_materials_blueprint.forEach(mat => {
+  if (typeof mat === 'string') {
+    html += `<li>${mat}</li>`;
+  } else if (typeof mat === 'object' && mat.material && mat.amount !== undefined) {
+    html += `<li>${mat.amount} ${mat.material}</li>`;
+  }
+  });
+html += `</ul>`;
+}
+
+if (item.sell !== undefined && item.sell !== null && item.sell !== '') {
+  html += `<p><strong>Sell Price:</strong> ${item.sell}</p>`;
+} 
+if (item.description !== undefined && item.description !== null && item.description !== '') {
+  html += `<p><strong>Description:</strong> ${item.description}</p>`;
+} 
+
+if (item.description2 !== undefined && item.description2 !== null && item.description2 !== '') {
+  html += `<p><strong>My Notes:</strong> ${item.description2}</p>`;
+} 
+  info.innerHTML = html;
+}
+  
+
+
+function getDataFileFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('data') || 'items.json';  // default fallback
+}
+const jsonFile = getDataFileFromURL();
+
+
+
+fetch(jsonFile)
+  .then(response => response.json())
+  .then(data => 
+  {
+    items = data;
+    filteredItems = items;
+    enableStationFilter = detectStationSupport();
+    
+
+    if (enableStationFilter) 
+    {
+      populateStations(); // only if applicable
+      stationSelect.addEventListener('change', e => 
+      {
+        filterItemsByStation(e.target.value);
+      });
+    } else 
+    {
+      document.getElementById('station-label').style.display = 'none';
+      document.getElementById('station-select').style.display = 'none'; // hide the dropdown if unused
+    }
+
+    populateItems();
+
+    /*
+    if(jsonFile == 'items.json')
+    {
+      populateStations();
+      filterItemsByStation('all');
+
+      updateItemDisplay(select.value);
+
+      select.addEventListener('change', e => {
+        updateItemDisplay(e.target.value);
+      });
+    }
+    else
+    {
+      filterItemsByStation('all');
+      updateItemDisplay(select.value);
+
+      select.addEventListener('change', e => {
+        updateItemDisplay(e.target.value);
+      });
+
+    }
+    */
+
+  })
+  .catch(error => {
+    console.error('Error loading items:', error);
+  });
+
+    // Setup
+    /*
+    populateSelect();
+    updateItemDisplay(select.value);
+
+    select.addEventListener('change', e => {
+      updateItemDisplay(e.target.value);
+    });
+    */

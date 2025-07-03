@@ -1,0 +1,45 @@
+{
+        "Egg": {
+        "name": "Egg",
+        "shop_name": "Food Shop",
+        "price": 100,
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        },
+        "Seed_Giant_pumpkin": {
+        "name": "Seed - Giant pumpkin",
+        "shop_name": "Food Shop",
+        "price": 2500,
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        },
+        "Seed_Bird_of_Paradise": {
+        "name": "Seed - Bird of Paradise",
+        "shop_name": "Food Shop",
+        "price": 150,
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        },
+        "Seed_Mysterious_Plant": {
+        "name": "Seed - Mysterious Plant",
+        "shop_name": "Food Shop",
+        "price": 150,
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        },
+        "Water_Pack": {
+        "name": "Water Pack",
+        "shop_name": "Food Shop",
+        "price": 100,
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        },
+        "Nutricion_Bar": {
+        "name": "Nutricion Bar",
+        "shop_name": "Food Shop",
+        "price": 75,
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        },
+        "Hydration_Gel": {
+        "name": "Hydration Gel",
+        "shop_name": "Food Shop",
+        "price": 75,
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        }
+
+}
