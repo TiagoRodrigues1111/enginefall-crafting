@@ -229,3 +229,16 @@ li{
 
 
     }
+
+
+
+
+        /* Select box styling */
+    #station-select {
+      padding: 8px;
+      font-size: 0.95em;
+      margin-bottom: 10px;
+      border-radius: 20px;
+      border: 2px solid #aaa;
+      text-align: center;
+    }
