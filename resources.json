@@ -1,37 +1,37 @@
 {
       "Plastic": {
         "name": "Plastic",
-        "image": "assets/images/resources/",
-        "description" : "A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture.",
+        "image": "assets/images/resources/plastic.png",
+        "description" : "An assortment of petrochemical polymers. A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture.",
         "sell" : 2
       },
         "Metal": {
         "name": "Metal",
-        "image": "assets/images/resources/",
-        "description" : "A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture.",
+        "image": "assets/images/resources/metal.png",
+        "description" : "A heterogenous mixture of metal scrap, mostly iron and copper. A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture.",
         "sell" : 2
       },
         "Chemicals": {
         "name": "Chemicals",
-        "image": "assets/images/resources/",
-        "description" : "A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture. They can also be purchased from resource shops from second class onwards.",
+        "image": "assets/images/resources/chemicals.png",
+        "description" : "A condensate of non-methane volatile organic compounds. A common material that can be found throughout the train from shops, dispensers, nodes, pickups, trashbags, and breaking furniture. They can also be purchased from resource shops from second class onwards.",
         "sell" : 10
       },
         "Ceramics": {
         "name": "Ceramics",
         "image": "assets/images/resources/ceramics.png",
-        "description" : "An Uncommon material found only in second and first class carriges from shops, dispensers, nodes, pickups, and breaking furniture",
+        "description" : "An extremely hard sintered material with a range of structural and high-power electronics applications. An uncommon material found only in second and first class carriges from shops, dispensers, nodes, pickups, and breaking furniture",
         "sell" : 10
       },
         "Exotic_Metal": {
         "name": "Exotic Metal",
-        "image": "assets/images/resources/",
-        "description" : "A rare material only found in first class carriges as a potential from nodes and breaking furniture",
+        "image": "assets/images/resources/exotic_metal.png",
+        "description" : "A small piece of rare-earth metal. A rare material only found in first class carriges as a potential from nodes and breaking furniture",
         "sell" : 0
       },
         "Quartz": {
         "name": "Quartz",
-        "image": "assets/images/resources/",
+        "image": "assets/images/resources/quartz.png",
         "description" : "",
         "sell" : 0
       },
@@ -43,7 +43,7 @@
       },
         "Parts": {
         "name": "Parts",
-        "image": "assets/images/",
+        "image": "assets/images/resources/parts.png",
         "description" : "Can be salvaged for resources in a Recycler, or analyzed in a Research Station to grant a random Tech.",
         "sell" : 0
       },
@@ -61,19 +61,19 @@
       },
         "Roach_Nest": {
         "name": "Roach Nest",
-        "image": "assets/images/resources/",
+        "image": "assets/images/resources/roach_nest.png",
         "description" : "",
         "sell" : 0
       },
         "Cola": {
         "name": "Cola",
-        "image": "assets/images/resources/",
+        "image": "assets/images/resources/cola.png",
         "description" : "",
         "sell" : 0
       },
         "Rusty_Mary": {
         "name": "Rusty Mary",
-        "image": "assets/images/resources/",
+        "image": "assets/images/resources/rusty_mary.png",
         "description" : "",
         "sell" : 0
       },

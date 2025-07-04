@@ -7,7 +7,7 @@
         { "material": "Metal", "amount": 30 }
         ],
         "price": 300,
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/armor_T1.png"
       },
       "Armor_T2": {
         "name": "Armor (T2)",
@@ -24,7 +24,7 @@
         ],
 
         "description": "-",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/armor_T2.png"
       },
         "Armor_T3": {
         "name": "Armor (T3)",
@@ -40,7 +40,7 @@
         { "material": "Parts", "amount": 90 },
         { "material": "Exotic Isotope", "amount": 1}
         ],
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/armor_T3.png"
       },
       "Armor_Plate": {
         "name": "Armor Plate",
@@ -50,7 +50,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/armor_plate.png"
       },
       "Backpack_T1": {
         "name": "Backpack (T1)",
@@ -60,7 +60,7 @@
         { "material": "Plastic", "amount": 15}
         ],
         "description": "Gives you 5 extra inventory slots.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/backpack_T1.png"
       },
       "Backpack_T2": {
         "name": "Backpack (T2)",
@@ -75,7 +75,7 @@
         { "material": "Rare Isotope", "amount": 1}
         ],
         "description": "Gives you 15 extra inventory slots",
-        "image": "assets/images/Backpack_T2.png"
+        "image": "assets/images/armor_bench/backpack_T2.png"
       },
       "Backpack_T3": {
         "name": "Backpack (T3)",
@@ -91,7 +91,7 @@
         { "material": "Exotic Isotope", "amount": 1}
         ],
         "description": "Gives you 25 extra inventory slots",
-        "image": "assets/images/Backpack_T3.png"
+        "image": "assets/images/armor_bench/backpack_T3.png"
       },
       "Gas_Mask_T1": {
         "name": "Gas Mask (T1)",
@@ -103,7 +103,7 @@
         ],
         "price": 250,
         "description": "100% resistance, 1200 durability",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/gas_mask_T1.png"
       },
       "Gas_Mask_T2": {
         "name": "Gas Mask (T2)",
@@ -119,7 +119,7 @@
         { "material": "Rare Isotope", "amount": 1}
         ],
         "description": "100% resistance, 2100 durability",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/gas_mask_T2.png"
       },
       "Gas_Mask_T3": {
         "name": "Gas Mask (T3)",
@@ -136,7 +136,7 @@
         { "material": "Exotic Isotope", "amount": 1}
         ],
         "description": "100% resistance, 2700 durability",
-        "image": "assets/images/Gas_Mask_T3.png"
+        "image": "assets/images/armor_bench/gas_mask_T3.png"
       },
       "Helmet_T1": {
         "name": "Helmet (T1)",
@@ -146,7 +146,7 @@
         { "material": "Metal", "amount": 15}
         ],
         "price": 150,
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/helmet_T1.png"
       },
       "Helmet_T2": {
         "name": "Helmet (T2)",
@@ -162,7 +162,7 @@
         { "material": "Rare Isotope", "amount": 1}
         ],
         "description": "-",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/helmet_T2.png"
       },
       "Helmet_T3": {
         "name": "Helmet (T3)",
@@ -178,7 +178,7 @@
         { "material": "Exotic Isotope", "amount": 1}
         ],
         "description": "-",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/helmet_T3.png"
       },
       "Radpack": {
         "name": "Radpack",
@@ -189,8 +189,20 @@
         { "material": "Plastic", "amount": 20}
         ],
         "description": "Used to safely carry isotopes on your person",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/armor_bench/radpack.png"
       },
+      "Raider_Boots": {
+        "name": "Raider Boots",
+        "quantity_crafted": 1,
+        "crafting_station": "Armor Bench",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 20}
+        ],
+        "description": "Increased damage to player built structures from sledgehammers, drills, and demolition charges. However, you take more damage from player built defences.",
+        "image": "assets/images/armor_bench/raider_boots.png"
+      },
+      
         "Armor_Bench": {
         "name": "Armor Bench",
         "quantity_crafted": 1,
@@ -257,7 +269,7 @@
       },
         "Clean_Bandages": {
         "name": "Clean Bandages",
-        "quantity_crafted": 0,
+        "quantity_crafted": 10,
         "crafting_station": "Crafting Machine",
         "crafting_materials": [
         { "material": "Ceramics", "amount": 20}
@@ -337,7 +349,7 @@
       },
         "Dirty_Bandages": {
         "name": "Dirty Bandages",
-        "quantity_crafted": 0,
+        "quantity_crafted": 1,
         "crafting_station": "Crafting Machine",
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
@@ -398,7 +410,7 @@
       },
         "Herbal_Bandages": {
         "name": "Herbal Bandages",
-        "quantity_crafted": 0,
+        "quantity_crafted": 5,
         "crafting_station": "Crafting Machine",
         "crafting_materials": [
         { "material": "Exotic Metal", "amount": 5}
@@ -645,7 +657,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "An expanded polyurethane slab, covered in synthetic farbic. Used to set yout spawn point.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/bedroll.png"
       },
       "Build_Tool": {
         "name": "Build Tool",
@@ -655,7 +667,7 @@
         { "material": "Metal", "amount": 5}
         ],
         "description": "Use to create Buildings",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/build_tool.png"
       },
         "Container_2": {
         "name": "Container",
@@ -665,7 +677,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "A polycarbonate storage chest. Room for 30 items.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/container.png"
       },
         "Crafting_Machine": {
         "name": "Crafting Machine",
@@ -675,16 +687,16 @@
         { "material": "Metal", "amount": 20}
         ],
         "description": "Can be used to craft a wide assortment of gear, tools, and base equipment.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/crafting_machine.png"
       },
       "Dirty_Bandages_2": {
         "name": "Dirty Bandages",
-        "quantity_crafted": 0,
+        "quantity_crafted": 1,
         "crafting_station": "Player Crafting",
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/dirty_bandages.png"
       },
         "Face_wrap": {
         "name": "Face wrap",
@@ -695,7 +707,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "100% resistance, 600 durability",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/face_wrap.png"
       },
         "Sledgehammer_T1": {
         "name": "Sledgehammer (T1)",
@@ -705,7 +717,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "description": "22 - Effective tool for demolishing buildings.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/sledgehammer_T1.png"
       },
       "Fuel_Core": {
         "name": "Fuel Core",
@@ -990,6 +1002,15 @@
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
         { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Drill_T4": {
+        "name": "Legendary Drill",
+        "quantity_crafted": 1,
+        "crafting_station": "Black Market",
+        "crafting_materials": [
+        { "material": "Diamond", "amount": 1}
         ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
@@ -1352,6 +1373,17 @@
         "description": "Uses rifle ammo",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
+        "Rifle_T4": {
+        "name": "Legendary Rifle",
+        "quantity_crafted": 1,
+        "crafting_station": "Black Market",
+        "crafting_materials": [
+        { "material": "Diamond", "amount": 3}
+        ],
+        "description": "Uses rifle ammo",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+
         "Rifle_Ammo": {
         "name": "Rifle Ammo",
         "quantity_crafted": 10,
@@ -1487,9 +1519,10 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
-        ],
+        { "material": "Chemicals", "amount": 40},
+        { "material": "Ceramics", "amount": 40},
+        { "material": "SMG Frame", "amount": 1}
+      ],
         "price": 4000,
         "blueprint_price": 2000,
         "crafting_materials_blueprint": [
@@ -1526,7 +1559,7 @@
         { "material": "Player Ear (fried)", "amount": 1}
         ],
         "description": " ++++++ Nutrition ++++++++ Hydration ++ Heal",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/roach_tacos.png"
       },
       "Rusty_Mary": {
         "name": "Rusty Mary",
@@ -1537,7 +1570,7 @@
         { "material": "Cola", "amount": 1}
         ],
         "description": " + Hydration",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/rusty_mary.png"
       },
       "Bubble_Tea": {
         "name": "Bubble Tea",
@@ -1548,7 +1581,7 @@
         { "material": "Cola", "amount": 2}
         ],
         "description": " ++ Hydration +++ Heal",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/bubble_tea.png"
       },
       "Omelette": {
         "name": "Omelette",
@@ -1560,7 +1593,7 @@
         { "material": "Mushroom", "amount": 1}
         ],
         "description": " ++ Nutrition ++ Heal",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/omelette.png"
       },
       "Sandwich": {
         "name": "Sandwich",
@@ -1571,7 +1604,7 @@
         { "material": "Mushroom", "amount": 2}
         ],
         "description": " +++ Nutrition ++ Heal",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/sandwich.png"
       },
       "Soup": {
         "name": "Soup",
@@ -1583,7 +1616,7 @@
         { "material": "Rusty Mary", "amount": 1}
         ],
         "description": " +++ Nutrition ++++ Hydration +++ Heal",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/soup.png"
       },
       "Rust_Dew": {
         "name": "Rust Dew",
@@ -1594,7 +1627,7 @@
         { "material": "Metal", "amount": 1}
         ],
         "description": "",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/rust_dew.png"
       },
       "Player_Ear_fried": {
         "name": "Player Ear (fried)",
@@ -1604,7 +1637,7 @@
         { "material": "Infiltrator Ear", "amount": 1}
         ],
         "description": "",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/player_ear_fried.png"
       },
       "Player_Ear_fried_2": {
         "name": "Player Ear (fried)",
@@ -1614,7 +1647,7 @@
         { "material": "Bandit Ear", "amount": 1}
         ],
         "description": "",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/player_ear_fried.png"
       },
       "Player_Ear_fried_3": {
         "name": "Player Ear (fried)",
@@ -1624,7 +1657,7 @@
         { "material": "Player Ear", "amount": 1}
         ],
         "description": "",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/player_ear_fried.png"
       },
       "Stuffed_Mushrooms": {
         "name": "Stuffed Mushrooms",
@@ -1635,7 +1668,7 @@
         { "material": "Mushroom", "amount": 1}
         ],
         "description": " + Nutrition",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/stuffed_mushrooms.png"
       },
       "Ear_Pie": {
         "name": "Ear Pie",
@@ -1647,7 +1680,7 @@
         { "material": "Stuffed Mushrooms", "amount": 1}
         ],
         "description": " +++ Nutrition +++ Hydration +++ Heal",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/ear_pie.png"
       },
       "Cola": {
         "name": "Cola",
@@ -1658,7 +1691,7 @@
         { "material": "Plastic", "amount": 1}
         ],
         "description": "",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/cooking_station/cola.png"
       },
         "Fertilizer": {
         "name": "Fertilizer",
@@ -1821,7 +1854,321 @@
         ],
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
-        "Template": {
+      "Demolition_Charge_T2_2": {
+        "name": "Demolition Charge (T2)",
+        "quantity_crafted": 3,
+        "crafting_station": "Black Market",
+        "crafting_materials": [
+        { "material": "Data Repository", "amount": 1}
+        ],
+        "blueprint_price": 3500,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 60},
+        { "material": "Rare Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Nuclear_Arsenal": 
+      {
+        "name": "Nuclear Arsenal",
+        "quantity_crafted": 1,
+        "crafting_station": "Black Market",
+        "crafting_materials": [
+        { "material": "Data Repository", "amount": 3}
+        ],
+        "blueprint_price": 5000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+      "Roach_Lamp": {
+        "name": "Roach Lamp",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 1},
+        { "material": "Roach nest", "amount": 3}
+        ],
+        "description": "what is this revolting thing?",
+        "image": "assets/images/prop_crafter/roach_lamp.png"
+      },
+      "Arm_chair": {
+        "name": "Arm Chair",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 5},
+        { "material": "Plastic", "amount": 10}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/arm_chair.png"
+      },
+      "Lockers": {
+        "name": "Lockers",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 30}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/lockers.png"
+      },
+      "Side_Table": {
+        "name": "Side Table",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 10}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/side_table.png"
+      },
+      "House_Plant": {
+        "name": "House Plant",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5},
+        { "material": "Chemicals", "amount": 10}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/house_plant.png"
+      },
+      "Sofa": {
+        "name": "Sofa",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 20}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/sofa.png"
+      },
+      "Lockers_3_set": {
+        "name": "Lockers (3 set)",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/lockers_3_set.png"
+      },
+      "Clothing_Rail": {
+        "name": "Clothing Rail",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 10}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/clothing_rail.png"
+      },
+      "Standing_Lamp": {
+        "name": "Standing Lamp",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 10}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/standing_lamp.png"
+      },
+      "Bedside_Table": {
+        "name": "Bedside Table",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 10}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/bedside_table.png"
+      },
+      "Glass_Topped_Table": {
+        "name": "Glass Topped Table",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 10},
+        { "material": "Plastic", "amount": 10}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/glass_topped_table.png"
+      },
+      "Sofa_bed": {
+        "name": "Sofa Bed",
+        "quantity_crafted": 1,
+        "crafting_station": "Prop Crafter",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 30}
+        ],
+        "description": "Furniture, part of the Second Class Apartment Set",
+        "image": "assets/images/prop_crafter/sofa_bed.png"
+      },
+        "Common_isotope": {
+        "name": "Common Isotope",
+        "quantity_crafted": 1,
+        "crafting_station": "Isotope Refiner",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 100},
+        { "material": "Metal", "amount": 200},
+        { "material": "Chemicals", "amount": 100}
+        ],
+        "image": "assets/images/isotope_refiner/common_isotope.png"
+      },
+        "Rare_isotope": {
+        "name": "Rare Isotope",
+        "quantity_crafted": 1,
+        "crafting_station": "Isotope Refiner",
+        "crafting_materials": [
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "image": "assets/images/isotope_refiner/rare_isotope.png"
+      },
+        "Exotic_isotope": {
+        "name": "Exotic Isotope",
+        "quantity_crafted": 1,
+        "crafting_station": "Isotope Refiner",
+        "crafting_materials": [
+        { "material": "Rare Isotope", "amount": 3}
+        ],
+        "image": "assets/images/isotope_refiner/exotic_isotope.png"
+      },
+      "Armored_Pants_T1": {
+        "name": "Armored Pants (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 15}
+        ],
+        "image": "assets/images/fashion_machine/armored_pants_T1.png"
+      },
+      "Coat_T1": {
+        "name": "Coat (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/coat_T1.png"
+      },
+      "Singlet_T1": {
+        "name": "Singlet (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/singlet_T1.png"
+      },
+      "Mask_T1": {
+        "name": "Mask (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/mask_T1.png"
+      },
+      "Boots_T1": {
+        "name": "Boots (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/boots_T1.png"
+      },
+      "Gloves_T1": {
+        "name": "Gloves (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/gloves_T1.png"
+      },
+      "Gloves_T2": {
+        "name": "Gloves (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
+        "image": "assets/images/fashion_machine/gloves_T2.png"
+      },
+      "Boots_T2": {
+        "name": "Boots (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
+        "image": "assets/images/fashion_machine/boots_T2.png"
+      },
+      "Coat_T2": {
+        "name": "Coat (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/coat_T2.png"
+      },
+      "Trenchcoat_T1": {
+        "name": "Trenchcoat (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/trenchcoat_T1.png"
+      },
+      "Pants_T1": {
+        "name": "Pants (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/pants_T1.png"
+      },
+      "Cap_T1": {
+        "name": "Cap (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10}
+        ],
+        "image": "assets/images/fashion_machine/cap_T1.png"
+      },
+        "Pants_T2": {
+        "name": "Pants (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
+        "image": "assets/images/fashion_machine/pants_T2.png"
+      },
+        "Hoodie_T2": {
+        "name": "Hoodie (T2)",
+        "quantity_crafted": 1,
+        "crafting_station": "Fashion Machine",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 5}
+        ],
+        "image": "assets/images/fashion_machine/hoodie_T2.png"
+      },      
+      "Template": {
         "name": "",
         "quantity_crafted": 1,
         "crafting_station": "",
@@ -1838,5 +2185,6 @@
         "description": "",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       }
+
 
 }
