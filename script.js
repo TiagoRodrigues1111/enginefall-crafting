@@ -121,14 +121,45 @@ const item = items[key];
   if (!item) return;
 img.src = item.image || '';
 img.alt = item.name ? `${item.name} image` : 'Item image';
-let html = item.name ? `<h2>${item.name}</h2>` : '';
+let html = '<h3> ';
+html += item.Finished ? '✅' : '❌';
+html += '&nbsp'
+html += item.name ? `${item.name}` : '';
+html += '&nbsp 🛒(un): '
+
+if (item.price !== undefined)
+  html += `${item.price}`;
+else
+  html += `❌`;
+
+html += ' / 💲: ';
+
+if (item.sell !== undefined)
+  html += `${item.sell}`;
+else
+  html += `❌`;
+
+html += ' / 🧾: ';
+if (item.blueprint_price !== undefined)
+  html += `${item.blueprint_price}`;
+else
+  html += `❌`;
+
+
+html+= '</h3>';
+
+
+if(item.blueprint_how)
+  html += `<p><strong>How to get blueprint:</strong> ${item.blueprint_how}</p>`;
+
+
 
 if (item.crafting_station !== undefined && item.crafting_station !== null && item.crafting_station !== '') {
   html += `<p><strong>Crafting Station:</strong> ${item.crafting_station}</p>`;
 }
 
 if (item.quantity_crafted !== undefined && item.quantity_crafted !== null && item.quantity_crafted !== '') {
-  html += `<p><strong>Crafted Quantity:</strong> ${item.quantity_crafted}</p>`;
+  html += `<p><strong>Quantity:</strong> ${item.quantity_crafted}</p>`;
 }
 
 if (item.crafting_materials && item.crafting_materials.length > 0) {
@@ -143,12 +174,6 @@ if (item.crafting_materials && item.crafting_materials.length > 0) {
   });
 html += `</ul>`;
 }
-if (item.price !== undefined && item.price !== null && item.price !== '') {
-  html += `<p><strong>Price:</strong> ${item.price}</p>`;
-}   
-if (item.blueprint_price !== undefined && item.blueprint_price !== null && item.blueprint_price !== '') {
-  html += `<p><strong>Blueprint Price:</strong> ${item.blueprint_price}</p>`;
-} 
 
 if (item.crafting_materials_blueprint && item.crafting_materials_blueprint.length > 0) {
   html += `<p><strong>Required Blueprint Materials:</strong></p><ul>`;
