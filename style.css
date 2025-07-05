@@ -93,6 +93,13 @@ p {
 
 /*LIST OF CONTENTS STYLE*/
 
+ol {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
 ul {
   display: table;
   margin: 0 auto;
