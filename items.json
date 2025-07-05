@@ -243,7 +243,7 @@
         { "material": "Plastic", "amount": 20}
         ],
         "description": "Can be used to craft advanced armor and protective gear.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Base_Core": {
@@ -268,7 +268,7 @@
         { "material": "Metal", "amount": 5},
         { "material": "Quartz", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Battery": {
@@ -280,7 +280,7 @@
         { "material": "Plastic", "amount": 3}
         ],
         "description": "Reload A calcium-polymer cell with high operational tolerance. Used to power a wide range of devices.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Bedroll": {
@@ -398,7 +398,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "description": "Can be used to cook \"meals\".",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Dirty_Bandages": {
@@ -439,7 +439,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Flashlight": {
@@ -451,7 +451,7 @@
         { "material": "Metal", "amount": 2},
         { "material": "Plastic", "amount": 3}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Gardening_Station": {
@@ -535,7 +535,7 @@
         { "material": "Metal", "amount": 1},
         { "material": "Plastic", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Player Shop": {
@@ -548,7 +548,7 @@
         { "material": "Plastic", "amount": 50}
         ],
         "description": "Building - A place to sell yout items to other passengers",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Poisoned_Bandages_T1": {
@@ -561,7 +561,7 @@
         { "material": "Dirty Bandages", "amount": 1}
         ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Poisoned_Bandages_T2": {
@@ -574,7 +574,7 @@
         { "material": "Dirty Bandages", "amount": 1}
         ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Poisoned_Bandages_T3": {
@@ -587,7 +587,7 @@
         { "material": "Herbal Bandages", "amount": 1}
         ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Prop_Crafter": {
@@ -617,7 +617,7 @@
         { "material": "Plastic", "amount": 25}
         ],
         "description": "Used to safely store isotopes",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Recycler": {
@@ -651,7 +651,7 @@
         ],
         "price": 200,
         "description": "Has everything you need to fix almost everything",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Reseach_Station": {
@@ -663,7 +663,7 @@
         { "material": "Metal", "amount": 10},
         { "material": "Plastic", "amount": 25}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Resource_Relay": {
@@ -675,7 +675,7 @@
         { "material": "Metal", "amount": 20},
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1..",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Sign": {
@@ -688,7 +688,7 @@
         { "material": "Plastic", "amount": 1}
         ],
         "description": "A sign used by players which can be written on.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Spray_Can": {
@@ -700,7 +700,7 @@
         { "material": "Metal", "amount": 5}
         ],
         "description": "Express yourself with some graffiti!",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Train_Information_Sign": {
@@ -748,7 +748,7 @@
         { "material": "Plastic", "amount": 20}
         ],
         "description": "Can be used to craft advanced weapons and munitions.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
        "Bedroll_2": {
@@ -876,8 +876,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 10}
         ],
         "price": 100,
         "blueprint_price": 50,
@@ -894,8 +893,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 10}
         ],
         "price": 100,
         "blueprint_price": 50,
@@ -913,8 +911,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 10}
         ],
         "price": 100,
         "blueprint_price": 50,
@@ -932,8 +929,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 10}
         ],
         "price": 100,
         "blueprint_price": 50,
@@ -951,8 +947,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 10}
         ],
         "price": 100,
         "blueprint_price": 50,
@@ -1285,8 +1280,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 10}
         ],
         "price": 100,
         "blueprint_price": 50,
@@ -1431,8 +1425,8 @@
         { "material": "Common Isotope", "amount": 3}
         ],
         "description": "Uses low caliber ammo",
-        "description2": "You get the blueprint whenever you register into class 3.",
-        "blueprint_how" : " ",
+        "description2": "",
+        "blueprint_how" : "You get the blueprint whenever you register into class 3.",
         "image": "assets/images/weapon_bench/pistol_T1.png"
       },
         "Pistol_T2": {
@@ -1451,8 +1445,8 @@
         { "material": "Rare Isotope", "amount": 1}
         ],
         "description": "Uses low caliber ammo",
-        "description2": "You get the blueprint whenever you register into class 2.",
-        "blueprint_how" : " ",
+        "description2": "",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2.",
         "image": "assets/images/weapon_bench/pistol_T2.png"
       },
         "Pistol_T3": {
@@ -1681,8 +1675,8 @@
         "crafting_materials": [
         { "material": "Ceramics", "amount": 25}
         ],
-        "description2": "You get the blueprint whenever you register into class 2.",
-        "blueprint_how" : " ",
+        "description2": "",
+        "blueprint_how" : "You get the blueprint whenever you register into class 2.",
         "image": "assets/images/weapon_bench/sledgehammer_T2.png"
       },
         "Sledgehammer_T3": {
@@ -1694,8 +1688,8 @@
         { "material": "Ceramics", "amount": 40},
         { "material": "Exotic Metal", "amount": 5}
         ],
-        "description2": "You get the blueprint whenever you register into class 1.",
-        "blueprint_how" : " ",
+        "description2": "",
+        "blueprint_how" : "You get the blueprint whenever you register into class 1.",
         "image": "assets/images/weapon_bench/sledgehammer_T3.png"
       },
         "SMG_T1": {
@@ -1762,8 +1756,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 10}
         ],
         "price": 100,
         "blueprint_price": 50,
