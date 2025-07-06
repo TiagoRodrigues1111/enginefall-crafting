@@ -244,7 +244,7 @@
         ],
         "description": "Can be used to craft advanced armor and protective gear.",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/armor_bench.png"
       },
         "Base_Core": {
         "Finished" : 0,
@@ -257,7 +257,7 @@
         ],
         "description": "A powerful computer which interfaces with the train and marks ownership territory.",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/base_core.png"
       },
         "Base_Core_Extender": {
         "Finished" : 0,
@@ -269,7 +269,7 @@
         { "material": "Quartz", "amount": 1}
         ],
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/base_core_extender.png"
       },
         "Battery": {
         "Finished" : 0,
@@ -281,7 +281,7 @@
         ],
         "description": "Reload A calcium-polymer cell with high operational tolerance. Used to power a wide range of devices.",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/battery.png"
       },
         "Bedroll": {
         "Finished" : 0,
@@ -293,7 +293,7 @@
         ],
         "description": "An expanded polyurethane slab, covered in synthetic farbic. Used to set yout spawn point.",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/bedroll.png"
       },
         "Breacher": {
         "Finished" : 0,
@@ -307,7 +307,7 @@
         ],
         "description": "Forces open the airlock into the next class, or into the engine. Attack into the airlock slot and give it time to work",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/breacher.png"
       },
         "Clean_Bandages": {
         "Finished" : 0,
@@ -323,7 +323,7 @@
         { "material": "Rare Isotope", "amount": 1}
         ],
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/clean_bandages.png"
       },
         "Container": {
         "Finished" : 0,
@@ -335,7 +335,7 @@
         ],
         "description": "A polycarbonate storage chest. Room for 30 items.",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/container.png"
       },
         "Container_Lockable_T1": {
         "Finished" : 0,
@@ -351,7 +351,7 @@
         { "material": "Common Isotope", "amount": 3}
         ],
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/container_lockable_T1.png"
       },
         "Container_Lockable_T2": {
         "Finished" : 0,
@@ -370,7 +370,7 @@
         ],
         "description": "A polycarbonate storage chest. 4-digit PIN with room for 60 items.",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/container_lockable_T2.png"
       },
         "Container_Lockable_T3": {
         "Finished" : 0,
@@ -386,7 +386,7 @@
         { "material": "Exotic Isotope", "amount": 1}
         ],
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/container_lockable_T3.png"
       },
         "Cooking_station": {
         "Finished" : 0,
@@ -399,7 +399,7 @@
         ],
         "description": "Can be used to cook \"meals\".",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/cooking_station.png"
       },
         "Dirty_Bandages": {
         "Finished" : 0,
@@ -410,7 +410,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/dirty_bandages.png"
       },
         "Farming_Station": {
         "Finished" : 0,
@@ -429,7 +429,7 @@
 
 
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/farming_station.png"
       },
         "Fashion_Machine": {
         "Finished" : 0,
@@ -440,7 +440,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/fashion_machine.png"
       },
         "Flashlight": {
         "Finished" : 0,
@@ -452,7 +452,7 @@
         { "material": "Plastic", "amount": 3}
         ],
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/flashlight.png"
       },
         "Gardening_Station": {
         "Finished" : 0,
@@ -470,7 +470,7 @@
         ],
         "description": "",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/gardening_station.png"
       },
         "Herbal_Bandages": {
         "Finished" : 0,
@@ -488,7 +488,7 @@
         ],
         "description": "",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/herbal_bandages.png"
       },
         "Incubator": {
         "Finished" : 0,
@@ -505,7 +505,7 @@
         ],
         "description": "An incubator for producing eggs. Takes a while to build!",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/incubator.png"
       },
         "Isotope_Refiner": {
         "Finished" : 0,
@@ -524,7 +524,7 @@
         ],
         "description": "Extracts isotopes from resources",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/isotope_refiner.png"
       },
         "Lamp_amber": {
         "Finished" : 0,
@@ -536,7 +536,7 @@
         { "material": "Plastic", "amount": 1}
         ],
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/lamp_amber.png"
       },
         "Player Shop": {
         "Finished" : 0,
@@ -549,7 +549,7 @@
         ],
         "description": "Building - A place to sell yout items to other passengers",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/player_shop.png"
       },
         "Poisoned_Bandages_T1": {
         "Finished" : 0,
@@ -562,7 +562,7 @@
         ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/player_crafting/dirty_bandages.png"
       },
         "Poisoned_Bandages_T2": {
         "Finished" : 0,
@@ -575,7 +575,7 @@
         ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/clean_bandages.png"
       },
         "Poisoned_Bandages_T3": {
         "Finished" : 0,
@@ -588,7 +588,7 @@
         ],
         "description": "These bandages look like regular bandages, but are infused with a contact poison. Be careful carrying these around!",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/herbal_bandages.png"
       },
         "Prop_Crafter": {
         "Finished" : 0,
@@ -605,7 +605,7 @@
         ],
         "description": "Used to craft a wide range of props to decorate the train.",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/prop_crafter.png"
       },
         "Radbox": {
         "Finished" : 0,
@@ -618,7 +618,7 @@
         ],
         "description": "Used to safely store isotopes",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/radbox.png"
       },
         "Recycler": {
         "Finished" : 0,
@@ -638,7 +638,7 @@
         ],
         "description": "Allows you to recycle items. Watch out! Takes up a lot of space.",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/recycler.png"
       },
         "Repair_Kit": {
         "Finished" : 0,
@@ -652,7 +652,7 @@
         "price": 200,
         "description": "Has everything you need to fix almost everything",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/repair_kit.png"
       },
         "Reseach_Station": {
         "Finished" : 0,
@@ -664,7 +664,7 @@
         { "material": "Plastic", "amount": 25}
         ],
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/research_station.png"
       },
         "Resource_Relay": {
         "Finished" : 0,
@@ -676,7 +676,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1..",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/resource_relay.png"
       },
         "Sign": {
         "Finished" : 0,
@@ -689,7 +689,7 @@
         ],
         "description": "A sign used by players which can be written on.",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/sign.png"
       },
         "Spray_Can": {
         "Finished" : 0,
@@ -701,7 +701,7 @@
         ],
         "description": "Express yourself with some graffiti!",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/spray_can.png"
       },
         "Train_Information_Sign": {
         "Finished" : 0,
@@ -719,7 +719,7 @@
         ],
         "description": "A sign which displays useful information about events aboard the train.",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/train_information_sign.png"
       },
         "Trespasser_Detector": {
         "Finished" : 0,
@@ -736,7 +736,7 @@
         ],
         "description": "Use to detect presence of Trespassers",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/trespasser_detector.png"
       },
         "Weapon Bench": {
         "Finished" : 0,
@@ -749,7 +749,28 @@
         ],
         "description": "Can be used to craft advanced weapons and munitions.",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/crafting_machine/weapon_bench.png"
+      },
+      "Pistol_T1_2": {
+        "Finished" : 0,
+        "name": "Pistol (T1)",
+        "quantity_crafted": 1,
+        "crafting_station": "Crafting Machine",
+        "crafting_materials": [
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 15},
+        { "material": "Chemicals", "amount": 5}
+        ],
+        "price": 600,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 30},
+        { "material": "Common Isotope", "amount": 3}
+        ],
+        "description": "Uses low caliber ammo",
+        "description2": "",
+        "blueprint_how" : "You get the blueprint whenever you register into class 3.",
+        "image": "assets/images/weapon_bench/pistol_T1.png"
       },
        "Bedroll_2": {
         "Finished" : 0,
