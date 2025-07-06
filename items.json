@@ -2529,7 +2529,70 @@
         ],
         "blueprint_how" : " ",
         "image": "assets/images/fashion_machine/hoodie_T2.png"
-      },      
+      },    
+      "Egg": {
+        "Finished" : 0,
+        "name": "Egg",
+        "quantity_crafted": 1,
+        "crafting_station": "Food Shop",
+        "price": 100,
+        "description": "",
+        "image": "assets/images/shop/.png"
+      },    
+      "Seed_Giant_pumpkin": {
+        "Finished" : 0,
+        "name": "Seed - Giant pumpkin",
+        "quantity_crafted": 1,
+        "crafting_station": "Food Shop",
+        "price": 2500,
+        "description": "",
+        "image": "assets/images/shop/.png"
+      },    
+      "Seed_Bird_of_Paradise_2": {
+        "Finished" : 0,
+        "name": "Seed - Bird of Paradise",
+        "quantity_crafted": 1,
+        "crafting_station": "Food Shop",
+        "price": 150,
+        "description": "",
+        "image": "assets/images/shop/.png"
+      },    
+      "Seed_Mysterious_Plant_4": {
+        "Finished" : 0,
+        "name": "Seed - Mysterious Plant",
+        "quantity_crafted": 1,
+        "crafting_station": "Food Shop",
+        "price": 150,
+        "description": "",
+        "image": "assets/images/shop/.png"
+      },    
+      "Water_Pack": {
+        "Finished" : 0,
+        "name": "Water Pack",
+        "quantity_crafted": 1,
+        "crafting_station": "Food Shop",
+        "price": 100,
+        "description": "",
+        "image": "assets/images/shop/.png"
+      },    
+      "Nutricion_Bar": {
+        "Finished" : 0,
+        "name": "Nutricion Bar",
+        "quantity_crafted": 1,
+        "crafting_station": "Food Shop",
+        "price": 75,
+        "description": "",
+        "image": "assets/images/shop/.png"
+      },    
+      "Hydration Gel": {
+        "Finished" : 0,
+        "name": "Hydration Gel",
+        "quantity_crafted": 1,
+        "crafting_station": "Food Shop",
+        "price": 75,
+        "description": "",
+        "image": "assets/images/shop/.png"
+      },
       "Template": {
         "Finished" : 0,
         "name": "",
