@@ -33,6 +33,9 @@ const select = document.getElementById('item-select');
 const img = document.querySelector('#item-image img');
 const info = document.getElementById('item-info');
 
+const nameInput = document.getElementById('name-input');
+
+
 let filteredItems = {}; // filtered based on station
 let items = {};
 let enableStationFilter = false;
@@ -62,11 +65,15 @@ function populateStations()
 }
 
 
+
+
+
+
 // Populate item dropdown based on current filter
 function populateItems() {
   itemSelect.innerHTML = '';
 
-  Object.entries(filteredItems).forEach(([key, item]) => {
+  Object.entries(nameFilteredItems).forEach(([key, item]) => {
     const option = document.createElement('option');
     option.value = key;
     option.textContent = item.name || key;
@@ -82,19 +89,80 @@ function populateItems() {
   }
 }
 
+function populateStationsFromItems(sourceItems) {
+  const currentSelection = stationSelect.value;
+  const stationSet = new Set();
 
-// Filter items based on station selection
+  Object.values(sourceItems).forEach(item => {
+    if (item.crafting_station) stationSet.add(item.crafting_station);
+  });
+
+  stationSelect.innerHTML = '<option value="all">All Stations</option>';
+
+  stationSet.forEach(station => {
+    const option = document.createElement('option');
+    option.value = station;
+    option.textContent = station;
+    stationSelect.appendChild(option);
+  });
+
+  // Try to preserve previous selection if still valid
+  if (stationSet.has(currentSelection)) {
+    stationSelect.value = currentSelection;
+  } else {
+    stationSelect.value = 'all';
+  }
+}
+
+
+
+function filterItemsByName(nameSubstring) {
+  const lower = nameSubstring.toLowerCase();
+  
+  
+  // Step 1: Name filtering (from original full list, not filteredItems)
+  const nameMatchedItems = Object.fromEntries(
+    Object.entries(items).filter(([_, item]) =>
+      item.name?.toLowerCase().includes(lower)
+    )
+  );
+
+  // Step 2: Update stations dropdown based on name-matched items
+  if (enableStationFilter) {
+    populateStationsFromItems(nameMatchedItems);
+  }
+
+  // Step 3: Now apply station filtering (based on current selection)
+  const selectedStation = stationSelect.value;
+  filteredItems = (selectedStation === 'all')
+    ? nameMatchedItems
+    : Object.fromEntries(
+        Object.entries(nameMatchedItems).filter(([_, item]) =>
+          item.crafting_station === selectedStation
+        )
+      );
+
+  nameFilteredItems = filteredItems; // final filtered list
+
+
+  // Step 4: repopulate the items dropdown
+  populateItems();
+}
+
+
 function filterItemsByStation(station) {
   if (station === 'all') {
     filteredItems = items;
   } else {
     filteredItems = Object.fromEntries(
-      Object.entries(items).filter(([_, item]) => item.crafting_station === station)
+      Object.entries(items).filter(
+        ([_, item]) => item.crafting_station === station
+      )
     );
   }
-  populateItems();
-}
 
+  filterItemsByName(nameInput.value); // always call this
+}
 
 stationSelect.addEventListener('change', e => {
   filterItemsByStation(e.target.value);
@@ -106,12 +174,19 @@ itemSelect.addEventListener('change', e => {
 });
 
 
+//stationSelect.addEventListener('change', e => {
+//  nameInput.value = '';
+//  filterItemsByStation(e.target.value);
+//});
 
+nameInput.addEventListener('input', e => {
+  filterItemsByName(e.target.value);
+});
 
-
-
-
-
+nameInput.addEventListener('input', e => {
+//  stationSelect.value = 'all'; // reset station filter
+  filterItemsByName(e.target.value);
+});
 
 
 
@@ -217,12 +292,14 @@ fetch(jsonFile)
   {
     items = data;
     filteredItems = items;
+    nameFilteredItems = items;
+
     enableStationFilter = detectStationSupport();
     
 
     if (enableStationFilter) 
     {
-      populateStations(); // only if applicable
+      populateStationsFromItems(items); // use new version
       stationSelect.addEventListener('change', e => 
       {
         filterItemsByStation(e.target.value);
@@ -234,31 +311,7 @@ fetch(jsonFile)
     }
 
     populateItems();
-
-    /*
-    if(jsonFile == 'items.json')
-    {
-      populateStations();
-      filterItemsByStation('all');
-
-      updateItemDisplay(select.value);
-
-      select.addEventListener('change', e => {
-        updateItemDisplay(e.target.value);
-      });
-    }
-    else
-    {
-      filterItemsByStation('all');
-      updateItemDisplay(select.value);
-
-      select.addEventListener('change', e => {
-        updateItemDisplay(e.target.value);
-      });
-
-    }
-    */
-
+  
   })
   .catch(error => {
     console.error('Error loading items:', error);
