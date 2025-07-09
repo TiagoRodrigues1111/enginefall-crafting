@@ -8,7 +8,7 @@
         { "material": "Metal", "amount": 30 }
         ],
         "price": 300,
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/armor_T1.png"
       },
       "Armor_T2": {
@@ -57,7 +57,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/armor_plate.png"
       },
       "Backpack_T1": {
@@ -69,7 +69,7 @@
         { "material": "Plastic", "amount": 15}
         ],
         "description": "Gives you 5 extra inventory slots.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/backpack_T1.png"
       },
       "Backpack_T2": {
@@ -118,7 +118,7 @@
         ],
         "price": 250,
         "description": "100% resistance, 1200 durability",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/gas_mask_T1.png"
       },
       "Gas_Mask_T2": {
@@ -167,7 +167,7 @@
         { "material": "Metal", "amount": 15}
         ],
         "price": 150,
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/helmet_T1.png"
       },
       "Helmet_T2": {
@@ -216,7 +216,7 @@
         { "material": "Plastic", "amount": 20}
         ],
         "description": "Used to safely carry isotopes on your person",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/radpack.png"
       },
       "Raider_Boots": {
@@ -229,7 +229,7 @@
         { "material": "Plastic", "amount": 20}
         ],
         "description": "Increased damage to player built structures from sledgehammers, drills, and demolition charges. However, you take more damage from player built defences.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Bought in the shop, before joining a game",
         "image": "assets/images/armor_bench/raider_boots.png"
       },
       
@@ -256,7 +256,7 @@
         { "material": "Plastic", "amount": 15}
         ],
         "description": "A powerful computer which interfaces with the train and marks ownership territory.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/crafting_machine/base_core.png"
       },
         "Base_Core_Extender": {
@@ -292,7 +292,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "An expanded polyurethane slab, covered in synthetic farbic. Used to set yout spawn point.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/bedroll.png"
       },
         "Breacher": {
@@ -306,7 +306,7 @@
         { "material": "Common Isotope", "amount": 1}
         ],
         "description": "Forces open the airlock into the next class, or into the engine. Attack into the airlock slot and give it time to work",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/crafting_machine/breacher.png"
       },
         "Clean_Bandages": {
@@ -334,7 +334,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "A polycarbonate storage chest. Room for 30 items.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/crafting_machine/container.png"
       },
         "Container_Lockable_T1": {
@@ -409,7 +409,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/dirty_bandages.png"
       },
         "Farming_Station": {
@@ -426,8 +426,6 @@
         { "material": "Parts", "amount": 30 },
         { "material": "Common Isotope", "amount": 3}
         ],
-
-
         "blueprint_how" : " ",
         "image": "assets/images/crafting_machine/farming_station.png"
       },
@@ -781,7 +779,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "An expanded polyurethane slab, covered in synthetic farbic. Used to set yout spawn point.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/bedroll.png"
       },
       "Build_Tool": {
@@ -793,7 +791,7 @@
         { "material": "Metal", "amount": 5}
         ],
         "description": "Use to create Buildings",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/build_tool.png"
       },
         "Container_2": {
@@ -805,7 +803,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "A polycarbonate storage chest. Room for 30 items.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/container.png"
       },
         "Crafting_Machine": {
@@ -817,7 +815,7 @@
         { "material": "Metal", "amount": 20}
         ],
         "description": "Can be used to craft a wide assortment of gear, tools, and base equipment.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/crafting_machine.png"
       },
       "Dirty_Bandages_2": {
@@ -828,7 +826,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/dirty_bandages.png"
       },
         "Face_wrap": {
@@ -841,7 +839,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "description": "100% resistance, 600 durability",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/face_wrap.png"
       },
         "Sledgehammer_T1": {
@@ -853,7 +851,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "description": "22 - Effective tool for demolishing buildings.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/sledgehammer_T1.png"
       },
       "Fuel_Core": {
@@ -866,7 +864,7 @@
         { "material": "", "amount": 0}
         ],
         "description": "Fuel Core, the most valuable item in EngineFall. Explodes in 10 minutes after it is removed from the Fuel Core Generator",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
       "Fuel_Core_2": {
@@ -875,7 +873,7 @@
         "quantity_crafted": 1,
         "crafting_station": "Fuel Core Generator",
         "description": "Fuel Core, the most valuable item in EngineFall. Explodes in 10 minutes after it is removed from the Fuel Core Generator",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Ammo_turret": {
@@ -888,7 +886,7 @@
         { "material": "Chemicals", "amount": 5}
         ],
         "description": "5 rounds of Turret ammo",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/ammo_turret.png"
       },
       "Attachment_Extended_Mag": {
@@ -1379,7 +1377,7 @@
         ],
         "price": 7,
         "description": "10 rounds of Low Caliber ammo, reloads Pistols & SMG's",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/low_caliber_ammo.png"
       },
         "Mining_Charge": {
@@ -1392,7 +1390,7 @@
         { "material": "Chemicals", "amount": 5}
         ],
         "description": "An explosive charge used to break up resource nodes. Used sparingly they can speed up resource harvesting. Triggered when they take damage from firearms or sledgehammers. WARNING: If a mining charge reduces a node to 0 HP, that node is destroyed and does not yeild any resources.",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/mining_charge.png"
       },
         "Nuke": {
@@ -1522,7 +1520,7 @@
         { "material": "", "amount": 0}
         ],
         "description": "10 rounds of Primitive ammo, reloads harpoons",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/primitive_ammo.png"
       },
         "Primitive_Harpoon": {
@@ -1535,7 +1533,7 @@
         { "material": "", "amount": 0}
         ],
         "description": "Uses primitive Ammo",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/primitive_harpoon.png"
       },
         "Rifle_T1": {
@@ -1614,7 +1612,7 @@
         ],
         "price": 15,
         "description": "10 Rounds of Rifle ammo, reloads rifles",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/rifle_ammo.png"
       },
         "Shotgun_T1": {
@@ -1685,7 +1683,7 @@
         ],
         "price": 25,
         "description": "10 rounds of Shotgun ammo, reloads shotguns",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/shotgun_ammo.png"
       },
         "Sledgehammer_T2": {
@@ -1800,7 +1798,7 @@
         { "material": "Player Ear (fried)", "amount": 1}
         ],
         "description": " ++++++ Nutrition ++++++++ Hydration ++ Heal",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/roach_tacos.png"
       },
       "Rusty_Mary": {
@@ -1813,7 +1811,7 @@
         { "material": "Cola", "amount": 1}
         ],
         "description": " + Hydration",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/rusty_mary.png"
       },
       "Bubble_Tea": {
@@ -1826,7 +1824,7 @@
         { "material": "Cola", "amount": 2}
         ],
         "description": " ++ Hydration +++ Heal",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/bubble_tea.png"
       },
       "Omelette": {
@@ -1840,7 +1838,7 @@
         { "material": "Mushroom", "amount": 1}
         ],
         "description": " ++ Nutrition ++ Heal",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/omelette.png"
       },
       "Sandwich": {
@@ -1853,7 +1851,7 @@
         { "material": "Mushroom", "amount": 2}
         ],
         "description": " +++ Nutrition ++ Heal",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/sandwich.png"
       },
       "Soup": {
@@ -1867,7 +1865,7 @@
         { "material": "Rusty Mary", "amount": 1}
         ],
         "description": " +++ Nutrition ++++ Hydration +++ Heal",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/soup.png"
       },
       "Rust_Dew": {
@@ -1880,7 +1878,7 @@
         { "material": "Metal", "amount": 1}
         ],
         "description": "",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/rust_dew.png"
       },
       "Player_Ear_fried": {
@@ -1892,7 +1890,7 @@
         { "material": "Infiltrator Ear", "amount": 1}
         ],
         "description": "",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/player_ear_fried.png"
       },
       "Player_Ear_fried_2": {
@@ -1904,7 +1902,7 @@
         { "material": "Bandit Ear", "amount": 1}
         ],
         "description": "",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/player_ear_fried.png"
       },
       "Player_Ear_fried_3": {
@@ -1916,7 +1914,7 @@
         { "material": "Player Ear", "amount": 1}
         ],
         "description": "",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/player_ear_fried.png"
       },
       "Stuffed_Mushrooms": {
@@ -1929,7 +1927,7 @@
         { "material": "Mushroom", "amount": 1}
         ],
         "description": " + Nutrition",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/stuffed_mushrooms.png"
       },
       "Ear_Pie": {
@@ -1943,7 +1941,7 @@
         { "material": "Stuffed Mushrooms", "amount": 1}
         ],
         "description": " +++ Nutrition +++ Hydration +++ Heal",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/ear_pie.png"
       },
       "Cola": {
@@ -1956,7 +1954,7 @@
         { "material": "Plastic", "amount": 1}
         ],
         "description": "",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/cooking_station/cola.png"
       },
         "Fertilizer": {
@@ -1967,7 +1965,7 @@
         "crafting_materials": [
         { "material": "Chemicals", "amount": 3}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Soil": {
@@ -1978,7 +1976,7 @@
         "crafting_materials": [
         { "material": "Mushroom", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Mysterious_Plant_Stage_4": {
@@ -1991,7 +1989,7 @@
         { "material": "Fertilizer", "amount": 5},
         { "material": "Seed - Mysterious Plant", "amount": 2}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Soil_1": {
@@ -2002,7 +2000,7 @@
         "crafting_materials": [
         { "material": "Skull", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Seed_Mysterious_Plant": {
@@ -2013,7 +2011,7 @@
         "crafting_materials": [
         { "material": "Small Flower - Mysterious Bloom", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Seed_Mysterious_Plant_2": {
@@ -2024,7 +2022,7 @@
         "crafting_materials": [
         { "material": "Medium Flower - Mysterious Bloom", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Seed_Mysterious_Plant_3": {
@@ -2035,7 +2033,7 @@
         "crafting_materials": [
         { "material": "Large Flower - Mysterious Bloom", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Seed_Bird_of_Paradise": {
@@ -2046,7 +2044,7 @@
         "crafting_materials": [
         { "material": "Small Flower - Bird of Paradise", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Seed - Bird of Paradise_2": {
@@ -2057,7 +2055,7 @@
         "crafting_materials": [
         { "material": "Medium Flower - Bird of Paradise", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Seed_Bird_of_Paradise_3": {
@@ -2068,7 +2066,7 @@
         "crafting_materials": [
         { "material": "Large Flower - Bird of Paradise", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Enriched_Soil": {
@@ -2080,7 +2078,7 @@
         { "material": "Soil", "amount": 1},
         { "material": "Mysterious Fruit", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Enriched_Soil_2": {
@@ -2092,7 +2090,7 @@
         { "material": "Chemicals", "amount": 30},
         { "material": "Skull", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Giant_Pumpkin": {
@@ -2105,7 +2103,7 @@
         { "material": "Toxin", "amount": 1},
         { "material": "Seed - Giant Pumpkin", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Soil_2": {
@@ -2116,7 +2114,7 @@
         "crafting_materials": [
         { "material": "Dew", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Soil_3": {
@@ -2127,7 +2125,7 @@
         "crafting_materials": [
         { "material": "Cola", "amount": 1}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Soil_4": {
@@ -2139,7 +2137,7 @@
         { "material": "Rust Dew", "amount": 1}
         ],
         "description": "",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
         "Soil_5": {
@@ -2151,7 +2149,7 @@
         { "material": "", "amount": 0},
         { "material": "", "amount": 0}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
       },
       "Demolition_Charge_T2_2": {
@@ -2197,7 +2195,7 @@
         { "material": "Roach nest", "amount": 3}
         ],
         "description": "what is this revolting thing?",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/roach_lamp.png"
       },
       "Arm_chair": {
@@ -2210,7 +2208,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/arm_chair.png"
       },
       "Lockers": {
@@ -2222,7 +2220,7 @@
         { "material": "Metal", "amount": 30}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/lockers.png"
       },
       "Side_Table": {
@@ -2235,7 +2233,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/side_table.png"
       },
       "House_Plant": {
@@ -2248,7 +2246,7 @@
         { "material": "Chemicals", "amount": 10}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/house_plant.png"
       },
       "Sofa": {
@@ -2261,7 +2259,7 @@
         { "material": "Plastic", "amount": 20}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/sofa.png"
       },
       "Lockers_3_set": {
@@ -2273,7 +2271,7 @@
         { "material": "Metal", "amount": 20}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/lockers_3_set.png"
       },
       "Clothing_Rail": {
@@ -2286,7 +2284,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/clothing_rail.png"
       },
       "Standing_Lamp": {
@@ -2299,7 +2297,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/standing_lamp.png"
       },
       "Bedside_Table": {
@@ -2312,7 +2310,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/bedside_table.png"
       },
       "Glass_Topped_Table": {
@@ -2325,7 +2323,7 @@
         { "material": "Plastic", "amount": 10}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/glass_topped_table.png"
       },
       "Sofa_bed": {
@@ -2338,7 +2336,7 @@
         { "material": "Plastic", "amount": 30}
         ],
         "description": "Furniture, part of the Second Class Apartment Set",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/prop_crafter/sofa_bed.png"
       },
         "Common_isotope": {
@@ -2351,7 +2349,7 @@
         { "material": "Metal", "amount": 200},
         { "material": "Chemicals", "amount": 100}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/isotope_refiner/common_isotope.png"
       },
         "Rare_isotope": {
@@ -2362,7 +2360,7 @@
         "crafting_materials": [
         { "material": "Common Isotope", "amount": 3}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/isotope_refiner/rare_isotope.png"
       },
         "Exotic_isotope": {
@@ -2373,7 +2371,7 @@
         "crafting_materials": [
         { "material": "Rare Isotope", "amount": 3}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/isotope_refiner/exotic_isotope.png"
       },
       "Armored_Pants_T1": {
@@ -2384,7 +2382,7 @@
         "crafting_materials": [
         { "material": "Metal", "amount": 15}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/armored_pants_T1.png"
       },
       "Coat_T1": {
@@ -2395,7 +2393,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/coat_T1.png"
       },
       "Singlet_T1": {
@@ -2406,7 +2404,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/singlet_T1.png"
       },
       "Mask_T1": {
@@ -2417,7 +2415,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/mask_T1.png"
       },
       "Boots_T1": {
@@ -2428,7 +2426,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/boots_T1.png"
       },
       "Gloves_T1": {
@@ -2439,7 +2437,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/gloves_T1.png"
       },
       "Gloves_T2": {
@@ -2450,7 +2448,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 5}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/gloves_T2.png"
       },
       "Boots_T2": {
@@ -2461,7 +2459,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 5}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/boots_T2.png"
       },
       "Coat_T2": {
@@ -2472,7 +2470,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/coat_T2.png"
       },
       "Trenchcoat_T1": {
@@ -2483,7 +2481,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/trenchcoat_T1.png"
       },
       "Pants_T1": {
@@ -2494,7 +2492,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/pants_T1.png"
       },
       "Cap_T1": {
@@ -2505,7 +2503,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 10}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/cap_T1.png"
       },
         "Pants_T2": {
@@ -2516,7 +2514,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 5}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/pants_T2.png"
       },
         "Hoodie_T2": {
@@ -2527,7 +2525,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 5}
         ],
-        "blueprint_how" : " ",
+        "blueprint_how" : "Always given to player",
         "image": "assets/images/fashion_machine/hoodie_T2.png"
       },    
       "Egg": {
