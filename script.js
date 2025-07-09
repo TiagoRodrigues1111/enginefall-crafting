@@ -36,6 +36,12 @@ const info = document.getElementById('item-info');
 const nameInput = document.getElementById('name-input');
 
 
+const recentlyViewed = [];
+const recentlyViewedList = document.getElementById('recently-viewed-list');
+const MAX_RECENT = 5; // you can change this
+
+
+
 let filteredItems = {}; // filtered based on station
 let items = {};
 let enableStationFilter = false;
@@ -73,7 +79,13 @@ function populateStations()
 function populateItems() {
   itemSelect.innerHTML = '';
 
-  Object.entries(nameFilteredItems).forEach(([key, item]) => {
+Object.entries(nameFilteredItems)
+  .sort((a, b) => {
+    const nameA = a[1].name?.toLowerCase() || '';
+    const nameB = b[1].name?.toLowerCase() || '';
+    return nameA.localeCompare(nameB);
+  })
+  .forEach(([key, item]) => {
     const option = document.createElement('option');
     option.value = key;
     option.textContent = item.name || key;
@@ -112,6 +124,28 @@ function populateStationsFromItems(sourceItems) {
   } else {
     stationSelect.value = 'all';
   }
+}
+
+function updateRecentlyViewed() {
+  recentlyViewedList.innerHTML = '';
+
+  recentlyViewed.forEach(key => {
+    const item = items[key];
+    if (!item) return;
+
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#';
+    a.textContent = item.name || key;
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      itemSelect.value = key;
+      updateItemDisplay(key);
+    });
+
+    li.appendChild(a);
+    recentlyViewedList.appendChild(li);
+  });
 }
 
 
@@ -274,7 +308,33 @@ if (item.description2 !== undefined && item.description2 !== null && item.descri
   html += `<p><strong>My Notes:</strong> ${item.description2}</p>`;
 } 
   info.innerHTML = html;
+
+
+  // Add to recently viewed
+  if (item.name) 
+    {
+    // Remove if already exists
+    const existingIndex = recentlyViewed.indexOf(key);
+    if (existingIndex !== -1) recentlyViewed.splice(existingIndex, 1);
+
+    // Add to front
+    recentlyViewed.unshift(key);
+
+    // Keep only the most recent N
+    if (recentlyViewed.length > MAX_RECENT) {
+      recentlyViewed.pop();
+    }
+
+    updateRecentlyViewed();
+  }
+
+
+
+
 }
+
+
+
   
 
 

@@ -199,7 +199,7 @@ li{
     #item-select {
       padding: 8px;
       font-size: 0.95em;
-      margin-bottom: 130px;
+      margin-bottom: 10px;
       
       border-radius: 20px;
       border: 2px solid #aaa;
@@ -277,3 +277,5 @@ li{
       border: 2px solid #aaa;
       text-align: center;
     }
+
+
