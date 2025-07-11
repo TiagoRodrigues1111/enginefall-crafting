@@ -8,6 +8,7 @@
         { "material": "Metal", "amount": 30 }
         ],
         "price": 300,
+        "sell" : 90,
         "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/armor_T1.png"
       },
@@ -20,6 +21,7 @@
         { "material": "Ceramics", "amount": 50 }
         ],
         "price": 2500,
+        "sell": 750,
         "blueprint_price":1250,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60 },
@@ -27,7 +29,7 @@
         ],
 
         "description": "-",
-        "blueprint_how" : " ",
+        "blueprint_how" : "Can be bought, crafted in research station, etc...",
         "image": "assets/images/armor_bench/armor_T2.png"
       },
         "Armor_T3": {
@@ -40,6 +42,7 @@
         { "material": "Exotic Metal", "amount": 10}
         ],
         "price": 6250,
+        "sell" : 1875,
         "blueprint_price":3130,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90 },
@@ -57,7 +60,9 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_how" : "Always given to player",
+        "description": "Repairs 15 armor over 15 seconds",
         "image": "assets/images/armor_bench/armor_plate.png"
       },
       "Backpack_T1": {
@@ -68,6 +73,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 15}
         ],
+        "sell": 45,
         "description": "Gives you 5 extra inventory slots.",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/backpack_T1.png"
@@ -80,6 +86,7 @@
         "crafting_materials": [
         { "material": "Ceramics", "amount": 40}
         ],
+        "sell": 480,
         "blueprint_price":1000,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60 },
@@ -98,6 +105,7 @@
         { "material": "Ceramics", "amount": 60},
         { "material": "Exotic Metal", "amount": 5}
         ],
+        "sell": 600,
         "blueprint_price":1820,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90 },
@@ -117,6 +125,7 @@
         { "material": "Plastic", "amount": 5}
         ],
         "price": 250,
+        "sell": 75,
         "description": "100% resistance, 1200 durability",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/gas_mask_T1.png"
@@ -127,9 +136,10 @@
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0}
+        { "material": "Ceramics", "amount": 35}
         ],
         "price": 1750,
+        "sell": 525,
         "blueprint_price":880,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60 },
@@ -167,6 +177,7 @@
         { "material": "Metal", "amount": 15}
         ],
         "price": 150,
+        "sell" : 45,
         "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/helmet_T1.png"
       },
@@ -179,6 +190,7 @@
         { "material": "Ceramics", "amount": 20}
         ],
         "price": 1000,
+        "sell": 300,
         "blueprint_price":500,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60 },
@@ -194,9 +206,11 @@
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0}
+        { "material": "Ceramics", "amount": 20},
+        { "material": "Exotic Metal", "amount": 5}
         ],
         "price": 1625,
+        "sell": 487,
         "blueprint_price":820,
                 "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90 },
@@ -215,6 +229,7 @@
         { "material": "Metal", "amount": 40},
         { "material": "Plastic", "amount": 20}
         ],
+        "sell": 180,
         "description": "Used to safely carry isotopes on your person",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/armor_bench/radpack.png"
@@ -279,6 +294,7 @@
         "crafting_materials": [
         { "material": "Plastic", "amount": 3}
         ],
+        "sell":9,
         "description": "Reload A calcium-polymer cell with high operational tolerance. Used to power a wide range of devices.",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/crafting_machine/battery.png"
@@ -381,7 +397,7 @@
         { "material": "", "amount": 0}
         ],
         "blueprint_price": 2250,
-                "crafting_materials_blueprint": [
+        "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90 },
         { "material": "Exotic Isotope", "amount": 1}
         ],
@@ -479,6 +495,7 @@
         { "material": "Exotic Metal", "amount": 5}
         ],
         "price": 125,
+        "sell" : 37,
         "blueprint_price": 70,
                 "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90 },
@@ -496,8 +513,8 @@
         "crafting_materials": [
         { "material": "Ceramics", "amount": 25}
         ],
-        "blueprint_price": 0,
-                "crafting_materials_blueprint": [
+        "blueprint_price": 630,
+        "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90 },
         { "material": "Exotic Isotope", "amount": 1}
         ],
@@ -648,6 +665,7 @@
         { "material": "Plastic", "amount": 3}
         ],
         "price": 200,
+        "sell": 60,
         "description": "Has everything you need to fix almost everything",
         "blueprint_how" : "You get the blueprint whenever you register into class 2 or class 1.",
         "image": "assets/images/crafting_machine/repair_kit.png"
@@ -760,6 +778,7 @@
         { "material": "Chemicals", "amount": 5}
         ],
         "price": 600,
+        "sell": 180,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -783,13 +802,14 @@
         "image": "assets/images/player_crafting/bedroll.png"
       },
       "Build_Tool": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Build Tool",
         "quantity_crafted": 1,
         "crafting_station": "Player Crafting",
         "crafting_materials": [
         { "material": "Metal", "amount": 5}
         ],
+        "sell":15,
         "description": "Use to create Buildings",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/build_tool.png"
@@ -838,6 +858,7 @@
         { "material": "Metal", "amount": 5},
         { "material": "Plastic", "amount": 5}
         ],
+        "sell": 30,
         "description": "100% resistance, 600 durability",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/face_wrap.png"
@@ -850,6 +871,7 @@
         "crafting_materials": [
         { "material": "Metal", "amount": 10}
         ],
+        "sell": 30,
         "description": "22 - Effective tool for demolishing buildings.",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/player_crafting/sledgehammer_T1.png"
@@ -898,6 +920,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_price": 50,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -915,6 +938,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_price": 50,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -933,6 +957,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_price": 50,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -951,6 +976,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_price": 50,
         "crafting_materials_blueprint": [
         { "material": "", "amount": 0},
@@ -969,6 +995,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_price": 50,
         "crafting_materials_blueprint": [
         { "material": "", "amount": 0},
@@ -984,8 +1011,10 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 100},
+        { "material": "Plastic", "amount": 100},
+        { "material": "Quartz", "amount": 1},
+        { "material": "Industrial Frame", "amount": 1}
         ],
         "blueprint_price": 1130,
         "crafting_materials_blueprint": [
@@ -1024,6 +1053,7 @@
         { "material": "Quartz", "amount": 3},
         { "material": "Industrial Frame", "amount": 1}
         ],
+        "sell": 2475,
         "blueprint_price": 3500,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
@@ -1038,8 +1068,10 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 50},
+        { "material": "Chemicals", "amount": 50},
+        { "material": "Quartz", "amount": 2},
+        { "material": "Microprocessor", "amount": 1}
         ],
         "blueprint_price": 1750,
         "crafting_materials_blueprint": [
@@ -1055,8 +1087,10 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Chemicals", "amount": 75},
+        { "material": "Ceramics", "amount": 50},
+        { "material": "Quartz", "amount": 3},
+        { "material": "Microprocessor", "amount": 1}
         ],
         "blueprint_price": 3500,
         "crafting_materials_blueprint": [
@@ -1077,6 +1111,7 @@
         { "material": "Quartz", "amount": 5},
         { "material": "Microprocessor", "amount": 1}
         ],
+        "sell": 3375,
         "blueprint_price": 5630,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
@@ -1097,6 +1132,7 @@
         { "material": "Quartz", "amount": 5},
         { "material": "Microprocessor", "amount": 1}
         ],
+        "sell": 525,
         "blueprint_how" : " ",
         "image": "assets/images/weapon_bench/detonator.png"
       },
@@ -1128,6 +1164,7 @@
         { "material": "Industrial Frame", "amount": 1}
         ],
         "price": 900,
+        "sell" : 270,
         "blueprint_price": 450,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -1155,7 +1192,7 @@
         "image": "assets/images/weapon_bench/drill_T2.png"
       },
         "Drill_T3": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Drill (T3)",
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
@@ -1165,6 +1202,7 @@
         { "material": "Industrial Frame", "amount": 1}
         ],
         "price": 5250,
+        "sell": 1950,
         "blueprint_price": 3250,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
@@ -1190,10 +1228,11 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Plastic", "amount": 15},
+        { "material": "Chemicals", "amount": 5}
         ],
         "price": 133,
+        "sell": 40,
         "blueprint_price": 70,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -1208,11 +1247,12 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Chemicals", "amount": 5},
+        { "material": "Ceramics", "amount": 20}
         ],
         "price": 417,
-        "blueprint_price": 0,
+        "sell": 125,
+        "blueprint_price": 210,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60},
         { "material": "Rare Isotope", "amount": 1}
@@ -1231,7 +1271,8 @@
         { "material": "Exotic Metal", "amount": 1}
         ],
         "price": 667,
-        "blueprint_price": 0,
+        "sell": 62,
+        "blueprint_price": 340,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
         { "material": "Exotic Isotope", "amount": 1}
@@ -1245,10 +1286,11 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Plastic", "amount": 20},
+        { "material": "Chemicals", "amount": 5}
         ],
         "price": 150,
+        "sell": 45,
         "blueprint_price": 80,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -1267,6 +1309,7 @@
         { "material": "Ceramics", "amount": 30}
         ],
         "price": 583,
+        "sell": 175,
         "blueprint_price": 300,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60},
@@ -1285,7 +1328,8 @@
         { "material": "", "amount": 0}
         ],
         "price": 833,
-        "blueprint_price": 0,
+        "sell": 79,
+        "blueprint_price": 420,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
         { "material": "Exotic Isotope", "amount": 1}
@@ -1302,6 +1346,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_price": 50,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -1317,10 +1362,11 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Plastic", "amount": 15},
+        { "material": "Chemicals", "amount": 5}
         ],
         "price": 133,
+        "sell" : 40,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "", "amount": 0},
@@ -1335,10 +1381,11 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Chemicals", "amount": 5},
+        { "material": "Ceramics", "amount": 20}
         ],
         "price": 417,
+        "sell" : 125,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "", "amount": 0},
@@ -1358,6 +1405,7 @@
         { "material": "Exotic Metal", "amount": 1}
         ],
         "price": 667,
+        "sell" : 62,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "", "amount": 0},
@@ -1367,7 +1415,7 @@
         "image": "assets/images/weapon_bench/impact_grenade_T3.png"
       },
         "Low_Caliber_Ammo": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Low Caliber Ammo",
         "quantity_crafted": 10,
         "crafting_station": "Weapon Bench",
@@ -1376,6 +1424,7 @@
         { "material": "Chemicals", "amount": 1}
         ],
         "price": 7,
+        "sell": 2,
         "description": "10 rounds of Low Caliber ammo, reloads Pistols & SMG's",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/low_caliber_ammo.png"
@@ -1410,14 +1459,56 @@
         "blueprint_how" : " ",
         "image": "assets/images/weapon_bench/nuke.png"
       },
+        "Nuke_dirty": {
+        "Finished" : 0,
+        "name": "Nuke (Dirty)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 100},
+        { "material": "Exotic Metal", "amount": 10},
+        { "material": "Quartz", "amount": 10},
+        { "material": "Common Isotope", "amount": 10}
+        ],
+        "blueprint_price": 5000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "blueprint_how" : " ",
+        "description" :"DROP AND RUN",
+        "image": "assets/images/weapon_bench/nuke_dirty.png"
+      },
+        "Nuke_explosive": {
+        "Finished" : 0,
+        "name": "Nuke (Explosive)",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 100},
+        { "material": "Exotic Metal", "amount": 10},
+        { "material": "Quartz", "amount": 10},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "blueprint_price": 5000,
+        "crafting_materials_blueprint": [
+        { "material": "Parts", "amount": 90},
+        { "material": "Exotic Isotope", "amount": 1}
+        ],
+        "blueprint_how" : " ",
+        "description" :"Boom",
+        "image": "assets/images/weapon_bench/nuke_explosive.png"
+      },      
         "Nuke_grenade": {
         "Finished" : 0,
         "name": "Nuke grenade",
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Chemicals", "amount": 50},
+        { "material": "Exotic Metal", "amount": 5},
+        { "material": "Quartz", "amount": 5},
+        { "material": "Rare Isotope", "amount": 2}
         ],
         "blueprint_price": 5000,
         "crafting_materials_blueprint": [
@@ -1438,6 +1529,7 @@
         { "material": "Chemicals", "amount": 5}
         ],
         "price": 600,
+        "sell": 180,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -1458,6 +1550,7 @@
         { "material": "Ceramics", "amount": 10}
         ],
         "price": 750,
+        "sell": 225,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60},
@@ -1479,6 +1572,7 @@
         { "material": "Pistol Frame", "amount": 1}
         ],
         "price": 2500,
+        "sell": 750,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
@@ -1560,6 +1654,7 @@
         { "material": "Ceramics", "amount": 40}
         ],
         "price": 3750,
+        "sell" : 1125,
         "blueprint_price": 1880,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60},
@@ -1575,10 +1670,12 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Chemicals", "amount": 50},
+        { "material": "Ceramics", "amount": 50},
+        { "material": "Rifle Frame", "amount": 1}
         ],
         "price": 6500,
+        "sell" : 1950,
         "blueprint_price": 3250,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
@@ -1611,6 +1708,7 @@
         { "material": "Chemicals", "amount": 2}
         ],
         "price": 15,
+        "sell" : 4,
         "description": "10 Rounds of Rifle ammo, reloads rifles",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/rifle_ammo.png"
@@ -1621,10 +1719,12 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 20},
+        { "material": "Chemicals", "amount": 10}
         ],
         "price": 900,
+        "sell": 270,
         "blueprint_price": 450,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -1640,10 +1740,11 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Plastic", "amount": 35},
+        { "material": "Chemicals", "amount": 20}
         ],
         "price": 1350,
+        "sell": 405,
         "blueprint_price": 680,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60},
@@ -1659,10 +1760,12 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Chemicals", "amount": 40},
+        { "material": "Ceramics", "amount": 40},
+        { "material": "Shotgun Frame", "amount": 1}
         ],
         "price": 4000,
+        "sell": 1200,
         "blueprint_price": 2000,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
@@ -1682,6 +1785,7 @@
         { "material": "Chemicals", "amount": 3}
         ],
         "price": 25,
+        "sell":7,
         "description": "10 rounds of Shotgun ammo, reloads shotguns",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/shotgun_ammo.png"
@@ -1694,6 +1798,7 @@
         "crafting_materials": [
         { "material": "Ceramics", "amount": 25}
         ],
+        "sell": 375,
         "description2": "",
         "blueprint_how" : "You get the blueprint whenever you register into class 2.",
         "image": "assets/images/weapon_bench/sledgehammer_T2.png"
@@ -1707,6 +1812,7 @@
         { "material": "Ceramics", "amount": 40},
         { "material": "Exotic Metal", "amount": 5}
         ],
+        "sell": 975,
         "description2": "",
         "blueprint_how" : "You get the blueprint whenever you register into class 1.",
         "image": "assets/images/weapon_bench/sledgehammer_T3.png"
@@ -1717,10 +1823,12 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Metal", "amount": 20},
+        { "material": "Plastic", "amount": 20},
+        { "material": "Chemicals", "amount": 10}
         ],
         "price": 900,
+        "sell" : 270,
         "blueprint_price": 450,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -1736,10 +1844,11 @@
         "quantity_crafted": 1,
         "crafting_station": "Weapon Bench",
         "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
+        { "material": "Plastic", "amount": 35},
+        { "material": "Chemicals", "amount": 20}
         ],
         "price": 1350,
+        "sell": 405,
         "blueprint_price": 680,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 60},
@@ -1760,6 +1869,7 @@
         { "material": "SMG Frame", "amount": 1}
       ],
         "price": 4000,
+        "sell": 1200,
         "blueprint_price": 2000,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 90},
@@ -1778,6 +1888,7 @@
         { "material": "Metal", "amount": 10}
         ],
         "price": 100,
+        "sell" : 30,
         "blueprint_price": 50,
         "crafting_materials_blueprint": [
         { "material": "Parts", "amount": 30},
@@ -2591,6 +2702,230 @@
         "description": "",
         "image": "assets/images/shop/.png"
       },
+      "Decoder": {
+        "Finished" : 0,
+        "name": "Decoder",
+        "quantity_crafted": 1,
+        "crafting_station": "",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 0,
+        "blueprint_price": 880,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+        "Mine_T2_Explosive": {
+        "Finished" : 0,
+        "name": "Mine (T2) - explosive",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 25},
+        { "material": "Ceramics", "amount": 30},
+        { "material": "Quartz", "amount": 2},
+        { "material": "Microprocessor", "amount": 1}
+        ],
+        "price": 0,
+        "blueprint_price": 1630,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/mine_T2_explosive.png"
+      },
+        "Mine_T2_gas": {
+        "Finished" : 0,
+        "name": "Mine (T2) - gas",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Chemicals", "amount": 25},
+        { "material": "Ceramics", "amount": 30},
+        { "material": "Quartz", "amount": 2},
+        { "material": "Microprocessor", "amount": 1}
+        ],
+        "price": 0,
+        "blueprint_price": 1630,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/mine_T2_gas.png"
+      },   
+      "Sledgehammer_T4": {
+        "Finished" : 0,
+        "name": "Sledgehammer (T4)",
+        "quantity_crafted": 1,
+        "crafting_station": "",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 5500,
+        "sell": 1650,
+        "blueprint_price": 2750,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ], 
+        "description2": "",
+        "blueprint_how" : "",
+        "image": "assets/images/weapon_bench/.png"
+      },
+        "Stim_Grenade": {
+        "Finished" : 0,
+        "name": "Stim Grenade",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Toxin", "amount": 1},
+        { "material": "Ceramics", "amount": 20},
+        { "material": "Common Isotope", "amount": 1}
+        ],
+        "price": 0,
+        "sell":10,
+        "blueprint_price": 500,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/stim_grenade.png"
+      },
+        "Stimgun": {
+        "Finished" : 0,
+        "name": "Stimgun",
+        "quantity_crafted": 1,
+        "crafting_station": "",
+        "crafting_materials": [
+        { "material": "Toxin", "amount": 2},
+        { "material": "Ceramics", "amount": 20},
+        { "material": "Common Isotope", "amount": 1}
+        ],
+        "price": 0,
+        "sell":50,
+        "blueprint_price": 500,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "Use to heal targets",
+        "blueprint_how" : " ",
+        "image": "assets/images/stimgun.png"
+      },
+        "Stimgun_ammo": {
+        "Finished" : 0,
+        "name": "Stimgun ammo",
+        "quantity_crafted": 0,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Toxin", "amount": 1},
+        { "material": "Ceramics", "amount": 10}
+        ],
+        "price": 0,
+        "sell":0,
+        "blueprint_price": 500,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "Use to reload stimgun",
+        "blueprint_how" : " ",
+        "image": "assets/images/stimgun_ammo.png"
+      },      
+        "Smoke_Grenade": {
+        "Finished" : 0,
+        "name": "Smoke Grenade",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10},
+        { "material": "Chemicals", "amount": 3}
+        ],
+        "price": 0,
+        "sell":25,
+        "blueprint_price": 50,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },      
+        "Remote_Demolition_Charge": {
+        "Finished" : 0,
+        "name": "Remote Demolition Charge",
+        "quantity_crafted": 1,
+        "crafting_station": "",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 0,
+        "sell": 0,
+        "blueprint_price": 880,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },  
+      "Impact_Smoke_Grenade": {
+        "Finished" : 0,
+        "name": "Impact Smoke Grenade",
+        "quantity_crafted": 1,
+        "crafting_station": "Weapon Bench",
+        "crafting_materials": [
+        { "material": "Plastic", "amount": 10},
+        { "material": "Chemicals", "amount": 3}
+        ],
+        "price": 83,
+        "sell": 25,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/impact_smoke_grenade.png"
+      },
+      "Barrier": {
+        "Finished" : 0,
+        "name": "Barrier",
+        "quantity_crafted": 1,
+        "crafting_station": "Shop",
+        "crafting_materials": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "price": 100,
+        "sell": 30,
+        "blueprint_price": 0,
+        "crafting_materials_blueprint": [
+        { "material": "", "amount": 0},
+        { "material": "", "amount": 0}
+        ],
+        "description": "",
+        "blueprint_how" : " ",
+        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+      },
+
       "Template": {
         "Finished" : 0,
         "name": "",
@@ -2601,6 +2936,7 @@
         { "material": "", "amount": 0}
         ],
         "price": 0,
+        "sell":0,
         "blueprint_price": 0,
         "crafting_materials_blueprint": [
         { "material": "", "amount": 0},
