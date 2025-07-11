@@ -1,6 +1,6 @@
 {  
         "Armor_T1": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Armor (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
@@ -52,7 +52,7 @@
         "image": "assets/images/armor_bench/armor_T3.png"
       },
       "Armor_Plate": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Armor Plate",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
@@ -66,7 +66,7 @@
         "image": "assets/images/armor_bench/armor_plate.png"
       },
       "Backpack_T1": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Backpack (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
@@ -116,7 +116,7 @@
         "image": "assets/images/armor_bench/backpack_T3.png"
       },
       "Gas_Mask_T1": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Gas Mask (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
@@ -169,7 +169,7 @@
         "image": "assets/images/armor_bench/gas_mask_T3.png"
       },
       "Helmet_T1": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Helmet (T1)",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
@@ -221,7 +221,7 @@
         "image": "assets/images/armor_bench/helmet_T3.png"
       },
       "Radpack": {
-        "Finished" : 0,
+        "Finished" : 1,
         "name": "Radpack",
         "quantity_crafted": 1,
         "crafting_station": "Armor Bench",
@@ -1133,25 +1133,9 @@
         { "material": "Microprocessor", "amount": 1}
         ],
         "sell": 525,
+        "blueprint_price" : 880,
         "blueprint_how" : " ",
         "image": "assets/images/weapon_bench/detonator.png"
-      },
-        "Dirty_Bomb": {
-        "Finished" : 0,
-        "name": "Dirty Bomb",
-        "quantity_crafted": 1,
-        "crafting_station": "Weapon Bench",
-        "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
-        ],
-        "blueprint_price": 5000,
-        "crafting_materials_blueprint": [
-        { "material": "Parts", "amount": 90},
-        { "material": "Exotic Isotope", "amount": 1}
-        ],
-        "blueprint_how" : " ",
-        "image": "assets/images/weapon_bench/dirty_bomb.png"
       },
         "Drill_T1": {
         "Finished" : 0,
@@ -1441,23 +1425,6 @@
         "description": "An explosive charge used to break up resource nodes. Used sparingly they can speed up resource harvesting. Triggered when they take damage from firearms or sledgehammers. WARNING: If a mining charge reduces a node to 0 HP, that node is destroyed and does not yeild any resources.",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/mining_charge.png"
-      },
-        "Nuke": {
-        "Finished" : 0,
-        "name": "Nuke",
-        "quantity_crafted": 1,
-        "crafting_station": "Weapon Bench",
-        "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
-        ],
-        "blueprint_price": 5000,
-        "crafting_materials_blueprint": [
-        { "material": "Parts", "amount": 90},
-        { "material": "Exotic Isotope", "amount": 1}
-        ],
-        "blueprint_how" : " ",
-        "image": "assets/images/weapon_bench/nuke.png"
       },
         "Nuke_dirty": {
         "Finished" : 0,
@@ -2740,7 +2707,7 @@
         ],
         "description": "",
         "blueprint_how" : " ",
-        "image": "assets/images/mine_T2_explosive.png"
+        "image": "assets/images/weapon_bench/mine_T2_explosive.png"
       },
         "Mine_T2_gas": {
         "Finished" : 0,
@@ -2761,7 +2728,7 @@
         ],
         "description": "",
         "blueprint_how" : " ",
-        "image": "assets/images/mine_T2_gas.png"
+        "image": "assets/images/weapon_bench/mine_T2_gas.png"
       },   
       "Sledgehammer_T4": {
         "Finished" : 0,
@@ -2802,13 +2769,13 @@
         ],
         "description": "",
         "blueprint_how" : " ",
-        "image": "assets/images/stim_grenade.png"
+        "image": "assets/images/weapon_bench/stim_grenade.png"
       },
         "Stimgun": {
         "Finished" : 0,
         "name": "Stimgun",
         "quantity_crafted": 1,
-        "crafting_station": "",
+        "crafting_station": "Weapon Bench",
         "crafting_materials": [
         { "material": "Toxin", "amount": 2},
         { "material": "Ceramics", "amount": 20},
@@ -2823,7 +2790,7 @@
         ],
         "description": "Use to heal targets",
         "blueprint_how" : " ",
-        "image": "assets/images/stimgun.png"
+        "image": "assets/images/weapon_bench/stimgun.png"
       },
         "Stimgun_ammo": {
         "Finished" : 0,
@@ -2843,7 +2810,7 @@
         ],
         "description": "Use to reload stimgun",
         "blueprint_how" : " ",
-        "image": "assets/images/stimgun_ammo.png"
+        "image": "assets/images/weapon_bench/stimgun_ammo.png"
       },      
         "Smoke_Grenade": {
         "Finished" : 0,
@@ -2863,28 +2830,8 @@
         ],
         "description": "",
         "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
+        "image": "assets/images/weapon_bench/smoke_grenade.png"
       },      
-        "Remote_Demolition_Charge": {
-        "Finished" : 0,
-        "name": "Remote Demolition Charge",
-        "quantity_crafted": 1,
-        "crafting_station": "",
-        "crafting_materials": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
-        ],
-        "price": 0,
-        "sell": 0,
-        "blueprint_price": 880,
-        "crafting_materials_blueprint": [
-        { "material": "", "amount": 0},
-        { "material": "", "amount": 0}
-        ],
-        "description": "",
-        "blueprint_how" : " ",
-        "image": "assets/images/Enginefall_Steam_CommuityLogo_184x184.png"
-      },  
       "Impact_Smoke_Grenade": {
         "Finished" : 0,
         "name": "Impact Smoke Grenade",
@@ -2903,7 +2850,7 @@
         ],
         "description": "",
         "blueprint_how" : " ",
-        "image": "assets/images/impact_smoke_grenade.png"
+        "image": "assets/images/weapon_bench/impact_smoke_grenade.png"
       },
       "Barrier": {
         "Finished" : 0,
