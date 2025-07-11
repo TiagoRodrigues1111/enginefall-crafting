@@ -27,43 +27,43 @@
         "name": "Exotic Metal",
         "image": "assets/images/resources/exotic_metal.png",
         "description" : "A small piece of rare-earth metal. A rare material only found in first class carriges as a potential from nodes and breaking furniture",
-        "sell" : 0
+        "sell" : 50
       },
         "Quartz": {
         "name": "Quartz",
         "image": "assets/images/resources/quartz.png",
         "description" : "",
-        "sell" : 0
+        "sell" : 50
       },
         "Industrial_Frame": {
         "name": "Industrial Frame",
         "image": "assets/images/resources/",
         "description" : "",
-        "sell" : 2
+        "sell" : 10
       },
         "Parts": {
         "name": "Parts",
         "image": "assets/images/resources/parts.png",
         "description" : "Can be salvaged for resources in a Recycler, or analyzed in a Research Station to grant a random Tech.",
-        "sell" : 0
+        "sell" : 1
       },
         "Microprocessor": {
         "name": "Microprocessor",
         "image": "assets/images/resources/",
         "description" : "",
-        "sell" : 0
+        "sell" : 10
       },
         "Mushroom": {
         "name": "Mushroom",
         "image": "assets/images/resources/",
         "description" : "",
-        "sell" : 0
+        "sell" : 1
       },
         "Roach_Nest": {
         "name": "Roach Nest",
         "image": "assets/images/resources/roach_nest.png",
         "description" : "",
-        "sell" : 0
+        "sell" : 1
       },
         "Cola": {
         "name": "Cola",
@@ -106,11 +106,31 @@
         "image": "assets/images/resources/",
         "description" : "Fruit that can be grown from the Mysterious Plant.",
         "sell" : 0
-      },        "Skull": {
+      },        
+      "Skull": {
         "name": "Skull",
         "image": "assets/images/resources/",
         "description" : "Harvested directly from desceased passengers.",
         "sell" : 0
-      }
+      },
+      "Pistol_Frame": {
+        "name": "Pistol Frame",
+        "image": "assets/images/resources/",
+        "description" : "",
+        "sell" : 10
+      },
+      "Shotgun_Frame": {
+        "name": "Shotgun Frame",
+        "image": "assets/images/resources/",
+        "description" : "",
+        "sell" : 10
+      },
+      "Rifle_Frame": {
+        "name": "Rifle Frame",
+        "image": "assets/images/resources/",
+        "description" : "",
+        "sell" : 10
+      }     
+
 
 }
