@@ -241,7 +241,7 @@ if (item.price !== undefined)
 else
   html += `❌`;
 
-html += ' / 💲: ';
+html += ' / 💲 (un): ';
 
 if (item.sell !== undefined)
   html += `${item.sell}`;
@@ -297,9 +297,10 @@ if (item.crafting_materials_blueprint && item.crafting_materials_blueprint.lengt
 html += `</ul>`;
 }
 
-if (item.sell !== undefined && item.sell !== null && item.sell !== '') {
-  html += `<p><strong>Sell Price:</strong> ${item.sell}</p>`;
-} 
+//if (item.sell !== undefined && item.sell !== null && item.sell !== '') {
+//  html += `<p><strong>Sell Price:</strong> ${item.sell}</p>`;
+//} 
+
 if (item.description !== undefined && item.description !== null && item.description !== '') {
   html += `<p><strong>Description:</strong> ${item.description}</p>`;
 } 
