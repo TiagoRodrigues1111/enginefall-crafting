@@ -615,8 +615,7 @@
         ],
         "blueprint_price": 150,
         "crafting_materials_blueprint": [
-        { "material": "Parts", "amount": 30 },
-        { "material": "Common Isotope", "amount": 1}
+        { "material": "Parts", "amount": 5 }
         ],
         "description": "Used to craft a wide range of props to decorate the train.",
         "blueprint_how" : " ",
@@ -1422,6 +1421,7 @@
         { "material": "Plastic", "amount": 5},
         { "material": "Chemicals", "amount": 5}
         ],
+        "sell": 5,
         "description": "An explosive charge used to break up resource nodes. Used sparingly they can speed up resource harvesting. Triggered when they take damage from firearms or sledgehammers. WARNING: If a mining charge reduces a node to 0 HP, that node is destroyed and does not yeild any resources.",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/mining_charge.png"
@@ -1580,6 +1580,7 @@
         { "material": "Metal", "amount": 5},
         { "material": "", "amount": 0}
         ],
+        "sell": 2,
         "description": "10 rounds of Primitive ammo, reloads harpoons",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/primitive_ammo.png"
@@ -1593,6 +1594,7 @@
         { "material": "Metal", "amount": 20},
         { "material": "", "amount": 0}
         ],
+        "sell": 60,
         "description": "Uses primitive Ammo",
         "blueprint_how" : "Always given to player",
         "image": "assets/images/weapon_bench/primitive_harpoon.png"
