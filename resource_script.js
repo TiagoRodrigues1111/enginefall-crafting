@@ -42,31 +42,20 @@ function detectStationSupport() {
   return Object.values(items).some(item => 'crafting_station' in item);
 }
 
-function populateStations() 
-{
-  const stationSet = new Set();
-
-  Object.values(items).forEach(item => {
-    if (item.crafting_station) {
-      stationSet.add(item.crafting_station);
-    }
-  });
-
-  // Add options to station select
-  stationSet.forEach(station => {
-    const option = document.createElement('option');
-    option.value = station;
-    option.textContent = station;
-    stationSelect.appendChild(option);
-  });
-}
 
 
 // Populate item dropdown based on current filter
-function populateItems() {
+function populateItems() 
+{
   itemSelect.innerHTML = '';
 
-  Object.entries(filteredItems).forEach(([key, item]) => {
+  Object.entries(filteredItems)
+  .sort((a, b) => {
+    const nameA = a[1].name?.toLowerCase() || '';
+    const nameB = b[1].name?.toLowerCase() || '';
+    return nameA.localeCompare(nameB);
+  })
+  .forEach(([key, item]) => {
     const option = document.createElement('option');
     option.value = key;
     option.textContent = item.name || key;
@@ -82,20 +71,6 @@ function populateItems() {
   }
 }
 
-
-// Filter items based on station selection
-function filterItemsByStation(station) {
-  if (station === 'all') {
-    filteredItems = items;
-  } else {
-    filteredItems = Object.fromEntries(
-      Object.entries(items).filter(([_, item]) => item.crafting_station === station)
-    );
-  }
-  populateItems();
-}
-
-
 stationSelect.addEventListener('change', e => {
   filterItemsByStation(e.target.value);
 });
@@ -104,13 +79,6 @@ stationSelect.addEventListener('change', e => {
 itemSelect.addEventListener('change', e => {
   updateItemDisplay(e.target.value);
 });
-
-
-
-
-
-
-
 
 
 

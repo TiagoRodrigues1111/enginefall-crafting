@@ -130,7 +130,19 @@
         "image": "assets/images/resources/",
         "description" : "",
         "sell" : 10
-      }     
+      },
+      "Diamond": {
+        "name": "Diamond",
+        "image": "assets/images/resources/",
+        "description" : "",
+        "sell" : 100
+      },
+      "Data Repository": {
+        "name": "Data Repository",
+        "image": "assets/images/resources/",
+        "description" : "",
+        "sell" : 100
+      }           
 
 
 }

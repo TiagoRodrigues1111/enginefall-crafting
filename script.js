@@ -24,23 +24,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+
+
+
 const stationSelect = document.getElementById('station-select');
-
-
-
 const itemSelect = document.getElementById('item-select');
 const select = document.getElementById('item-select');
 const img = document.querySelector('#item-image img');
 const info = document.getElementById('item-info');
-
 const nameInput = document.getElementById('name-input');
-
-
 const recentlyViewed = [];
 const recentlyViewedList = document.getElementById('recently-viewed-list');
 const MAX_RECENT = 5; // you can change this
-
-
 
 let filteredItems = {}; // filtered based on station
 let items = {};
@@ -254,13 +249,10 @@ if (item.blueprint_price !== undefined)
 else
   html += `❌`;
 
-
 html+= '</h3>';
-
 
 if(item.blueprint_how)
   html += `<p><strong>How to get blueprint:</strong> ${item.blueprint_how}</p>`;
-
 
 
 if (item.crafting_station !== undefined && item.crafting_station !== null && item.crafting_station !== '') {
@@ -297,10 +289,6 @@ if (item.crafting_materials_blueprint && item.crafting_materials_blueprint.lengt
 html += `</ul>`;
 }
 
-//if (item.sell !== undefined && item.sell !== null && item.sell !== '') {
-//  html += `<p><strong>Sell Price:</strong> ${item.sell}</p>`;
-//} 
-
 if (item.description !== undefined && item.description !== null && item.description !== '') {
   html += `<p><strong>Description:</strong> ${item.description}</p>`;
 } 
@@ -309,6 +297,9 @@ if (item.description2 !== undefined && item.description2 !== null && item.descri
   html += `<p><strong>My Notes:</strong> ${item.description2}</p>`;
 } 
   info.innerHTML = html;
+
+
+
 
 
   // Add to recently viewed
@@ -328,10 +319,6 @@ if (item.description2 !== undefined && item.description2 !== null && item.descri
 
     updateRecentlyViewed();
   }
-
-
-
-
 }
 
 
